@@ -1,0 +1,6 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@sectionintoc {2}{Marco teórico}{7}{0}{2}
+\beamer@sectionintoc {3}{Metodos experimentales}{31}{0}{3}
+\beamer@sectionintoc {4}{Resultados}{38}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{52}{0}{5}

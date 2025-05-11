@@ -1,0 +1,351 @@
+\documentclass[10pt,aspectratio=1610,compress,dvipsnames]{beamer}
+% --- Global figure numbering fix ---
+\usepackage{etoolbox}
+\usepackage{caption}
+\usepackage{tikz}
+%\usepackage{multimedia}
+\usepackage{hyperref}
+% Stop Beamer from resetting counters per frame
+
+%new trial with new video
+\usepackage{movie15}
+
+
+\makeatletter
+\let\beamer@reseteecounters=\relax
+\pretocmd{\beamer@reseteecountersinframe}{\relax}{}{}
+\makeatother
+
+% Patch caption numbering (again, force global numbering)
+\setbeamertemplate{caption}[numbered]
+\addtocounter{figure}{0} % ensure figure counter is used globally
+
+\usetheme[
+%%% option passed to the outer theme
+%    progressstyle=fixedCircCnt,   % fixedCircCnt, movingCircCnt (moving is deault)
+  ]{Feather}
+
+% Store the original frame environment
+ 
+% If you want to change the colors of the various elements in the theme, edit and uncomment the following lines
+
+% Change the bar colors:
+%\setbeamercolor{Feather}{fg=red!20,bg=red}
+
+% Change the color of the structural elements:
+%\setbeamercolor{structure}{fg=red}
+
+% Change the frame title text color:
+%\setbeamercolor{frametitle}{fg=blue}
+
+% Change the normal text color background:
+%\setbeamercolor{normal text}{fg=black,bg=gray!10}
+
+%-------------------------------------------------------
+% INCLUDE PACKAGES
+%-------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+%-------------------------------------------------------
+% DEFFINING AND REDEFINING COMMANDS
+%-------------------------------------------------------
+
+% colored hyperlinks
+\newcommand{\chref}[2]{
+  \href{#1}{{\usebeamercolor[bg]{Feather}#2}}
+}
+
+\makeatletter
+\def\blfootnote{\gdef\@thefnmark{}\@footnotetext}
+\makeatother
+
+%-------------------------------------------------------
+% INFORMATION IN THE TITLE PAGE
+%-------------------------------------------------------
+
+\title[] % [] is optional - is placed on the bottom of the sidebar on every slide
+{ % is placed on the title page
+      \textbf{Optical tweezers implementation for a single-cell study of Diatoms:}
+}
+
+\subtitle[]
+{
+      \textbf{\small Exploration of trapping performance and the photonic properties of frustules}
+}
+
+\author[FC]
+{      \textbf{\large Autor: Raymundo Vazquez Martinez} \\ \vspace{0.2cm}
+      {\ttfamily Asesor: Dr. Remigio Cabrera Trujillo}
+}
+
+\institute[UNAM]
+{
+      \textbf{Universidad Nacional Autónoma de México}\\
+      %Departamento de Física y Química Teórica\\
+      Facultad de Ciencias\\
+      %\vspace{0.2cm}
+      %\includegraphics[scale=0.15]{logo}
+      \vspace{-1cm}
+  
+  %there must be an empty line above this line - otherwise some unwanted space is added between the university and the country (I do not know why;( )
+}
+
+\date{\today}
+
+%-------------------------------------------------------
+% THE BODY OF THE PRESENTATION
+%-------------------------------------------------------
+
+\begin{document}
+
+%-------------------------------------------------------
+% THE TITLEPAGE
+%-------------------------------------------------------
+
+{\1% % this is the name of the PDF file for the background
+\begin{frame}[plain,noframenumbering] % the plain option removes the header from the title page, noframenumbering removes the numbering of this frame only
+  \titlepage % call the title page information from above
+\end{frame}}
+
+
+%-------------------------------------------------------
+\section{Introducción}
+%-------------------------------------------------------
+% ----------------- Frame 1 -----------------
+\begin{frame}<1-5>
+  \frametitle{Introducción}
+  \framesubtitle{La presión de radiación}
+
+  \only<1>{
+    La radiación electromagnética ejerce fuerza sobre los objetos materiales debido al intercambio de momento.
+  }
+
+  \only<2>{
+    La primera vez que se planteó que la presión de radiación podría explicar un fenómeno fue propuesta por Kepler.
+
+    \refstepcounter{figure} % Incrementa figura globalmente
+    \centering
+    \includegraphics[width=0.5\linewidth]{cometa-e1561938278988.jpg}
+
+    \vspace{0.5em}
+    \textbf{Figura \arabic{figure}}:
+    Un cometa que orbita alrededor del sol apunta su cola en dirección opuesta al mismo.
+  }
+
+  \only<3>{
+    El primer sustento teórico vino de la teoría electromagnética de Maxwell.
+  }
+
+  \only<4>{
+    Con las fuentes "naturales" de radiación, los fenómenos donde la presión de radiación jugaba un papel determinante eran astronómicos. 
+
+    %\refstepcounter{figure}
+    %\centering
+    %\includegraphics[scale=0.4]{Imagenes introduccion/Viking_Orbiter_releasing_the_lander.jpg}
+
+    %\vspace{0.5em}
+    %\textbf{Figura 2}: Un ejemplo de la modernidad:
+    %La correcion de trayectoria de la mision viking.
+  }
+  \only<5>{
+    
+    %Con las fuentes "naturales" de radiación, los fenómenos donde la presión de radiación jugaba un papel determinante eran astronómicos. 
+
+    \refstepcounter{figure}
+    \centering
+    \includegraphics[scale=0.4]{Imagenes introduccion/Viking_Orbiter_releasing_the_lander.jpg}
+
+    \vspace{0.5em}
+    \textbf{Figura 2}: Un ejemplo de la modernidad:
+    La correcion de trayectoria de la mision viking.
+  }
+\end{frame}
+
+\begin{frame}<1-3>
+  \frametitle{Introducción}
+  \framesubtitle{El láser y las contribuciones de Ashkin.}
+
+  \only<1>{
+    La llegada del láser permitió, por primera vez, demostrar experimentalmente la aplicación de la \textbf{presión de radiación} en la manipulación de objetos en el laboratorio.
+  }
+
+  \only<2>{
+    Esto llevaría al desarrollo de las \textbf{pinzas ópticas}.
+  }
+    \only<3>{
+    Arthur Ashkin seria el pionero en estos desarrollos y recibiria el premio Nobel de Fisica en el 2018 
+    
+    \refstepcounter{figure}
+    \centering
+    \includegraphics[scale=0.25]{Imagenes introduccion/NobelFis201801.jpg}
+
+    \vspace{0.5em}
+    \textbf{Figura 2}: Arthur Ashkin en Bell labs..
+  }
+  
+  
+\end{frame}
+
+
+\begin{frame}<1-2>
+  %-------------------------------------------------------
+  \frametitle{Introducción}
+  \framesubtitle{Resumen cronológico.}
+  \only<1>{ 
+  \begin{itemize}
+    \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
+    \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
+    \item 1900s: Mediciones de la presión de radiación, por Albert Michelson y Francis Pease.
+    \item 1960: Invención del láser por Theodore Maiman.
+    \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas.
+    \item 1986: Invención de las pinzas ópticas por Arthur Ashkin y ejecucion luminica de bacterias.
+    \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
+  \end{itemize}
+  }
+  \only<2>{
+  \begin{itemize}
+    \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
+    \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
+    \item 1900s: Mediciones de la presión de radiación, Albert Michelson y Francis Pease realizaron la primera medición directa.
+    \item 1960: Invención del láser por Theodore Maiman.
+    \ \fbox{\begin{minipage}{.9\textwidth} 
+        \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas. 
+        \item 1986: Invención de las pinzas ópticas por Arthur Ashkin y ejecucion luminica de bacterias
+      \end{minipage}}
+    \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
+  \end{itemize}
+  }
+\end{frame}
+
+
+
+
+
+
+
+
+ 
+%----------------------------------------
+\section{Marco teórico}
+
+\begin{frame}
+\frametitle{Marco teórico}\framesubtitle{Diatomeas}
+Las diatomeas son organismos unicelulares que se encuentran en la mayoria de los cuerpos de agua en la tierra. Se han encontrado diatomeas en 
+\begin{itemize}
+    \item Lagos
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Marco teórico}{Microscopio invertido}
+\end{frame}
+%---------------------------------
+\begin{frame}{Marco teórico}{Pinzas opticas}
+\end{frame}
+\begin{frame}{Marco teórico}{Microfluidicos}
+\end{frame}
+
+\section{Metodos experimentales}
+\begin{frame}{Metodos experimentales}{Microscopio Invertido}
+\end{frame}
+\begin{frame}{Metodos experimentales}{Optical Tweezers}
+\end{frame}
+\begin{frame}{Metodos experimentales}{Preparacion de muestras}
+\end{frame}
+\begin{frame}{Metodos experimentales}{Microfluidicos}
+\end{frame}
+%-------------------------------------------------------
+\section{Resultados}
+%-------------------------------------------------------
+
+%trial 
+
+%funciona, pero abre un video extra en un reproductor. 
+
+%\begin{frame}{Video on the computer}
+ %   \centering
+  %  \movie[externalviewer]{\includegraphics[width=\textheight, keepaspectratio]{logofac.png}}{/home/raymundo/Downloads/circlejonas.mp4}
+%\end{frame}
+
+
+
+
+\begin{frame}{Resultados 1}{Manipulacion de particulas de silica sinteticas}
+%-------------------------------------------------------
+\begin{figure}
+    \centering
+    \includemovie[autoplay]{12cm}{7cm}{Videos_results/circlejonas.mp4}
+    \caption{Caption}
+    \label{fig:enter-label}
+\end{figure}
+  \begin{itemize}
+    \item Se ha definido el color \textcolor{unamblue}{unamblue}
+    \item Se ha definido el color \textcolor{unamgold}{unamgold}
+  \end{itemize}
+
+\blfootnote{Se puede usar blfootnote para referencias sin número.}
+
+\end{frame}
+
+\begin{frame}{Resultados 1}{Atrapamiento de celulas de levadura.}
+%-------------------------------------------------------
+
+\begin{block}{Bloque de texto}
+  \begin{itemize}
+    \item Información 1
+    \item Información 2
+    \item Información 3
+    \item Información 4
+  \end{itemize}
+\end{block}
+
+\blfootnote{Autor, D. Int. J. Quantum Power, 152(1), 125-130 (2023)}
+
+\end{frame}
+
+\begin{frame}{Resultados 1}{Ejecucion por luz de las celulas de levaudra.}
+Ejemplifica el efecto detrimental de la radiacion en las celulas vivas.
+\end{frame}
+
+
+
+
+
+\begin{frame}{Resultados 2}{Cuantificacion de fuerzas}
+    
+\end{frame}
+%-------------------------------------------------------
+\section{Conclusiones}
+%-------------------------------------------------------
+\begin{frame}{Conclusiones}
+%-------------------------------------------------------
+
+  \begin{itemize}
+    \item Los datos indican ...
+    \item Se encontró una tendencia ...
+  \end{itemize}
+
+  \vspace{0.5cm}
+  \textbf{\Large Perspectivas}
+  \vspace{0.5cm}
+  \begin{itemize}
+    \item El camino a seguir es ...
+    \item Se ha abierto el camino para lograr ...
+  \end{itemize}
+
+\end{frame}
+\section*{Extra slides}
+\begin{frame}{Presion radiacion}{Subtítulo Genérico}
+%-------------------------------------------------------
+
+  \begin{itemize}
+    \item Se ha definido el color \textcolor{unamblue}{unamblue}
+    \item Se ha definido el color \textcolor{unamgold}{unamgold}
+  \end{itemize}
+
+\blfootnote{Se puede usar blfootnote para referencias sin número.}
+
+\end{frame}
+\end{document}

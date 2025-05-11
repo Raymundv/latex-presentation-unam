@@ -1,0 +1,29 @@
+# Fdb version 4
+["dvipdf"] 0 "Feathertheme.dvi" "Feathertheme.pdf" "Feathertheme" 0 -1
+  "Feathertheme.dvi" 0 -1 0 "latex"
+  (generated)
+  "Feathertheme.pdf"
+  (rewritten before read)
+["latex"] 1746393767.839 "Feathertheme.tex" "Feathertheme.dvi" "Feathertheme" 1746393767.99635 2
+  "/etc/texmf/web2c/texmf.cnf" 1746392922.00915 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls" 1704576813 12512 a310ecdc7bb8bde63702b12cf1fc0ab5 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty" 1684185199 9397 90105d8818f445af9ed5a33927eeaf84 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty" 1704576813 7614 7260b6a2a859aa30e482f34e0f6dfb1e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty" 1684185199 1743 5acd9fac8c2fc5a96f2f36385ae738b3 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty" 1705871765 220920 fd3cbb5f1a2bc9b8f451b8b7d8171264 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1746392959 6800656 06696e8996463f3974fba402fe01d93a ""
+  "Feathertheme.aux" 1746393288.45368 32 3985256e7290058c681f74d7a3565a19 "latex"
+  "Feathertheme.tex" 1746393767.70439 10994 0448cc73eb96ddf6eeefb78b7f3c585f ""
+  "pgfmath.sty" 0 -1 0 ""
+  (generated)
+  "Feathertheme.aux"
+  "Feathertheme.dvi"
+  "Feathertheme.log"
+  (rewritten before read)
