@@ -8,9 +8,9 @@
 \usepackage{hyperref}
 \usepackage{subcaption}
 \usepackage{verbatim}
-\captionsetup{font=footnotesize}
+\captionsetup{font=scriptsize}
 % Stop Beamer from resetting counters per frame
-
+\setbeamerfont{footnote}{size=\scriptsize}
 %new trial with new video
 \usepackage{movie15}
 
@@ -130,7 +130,7 @@
 
  \frametitle{Introducción}
   \framesubtitle{Resumen cronológico.}
-  \only<1>{ 
+  
   \begin{itemize}
     \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
     \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
@@ -139,9 +139,9 @@
     \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas.
     \item 1986: Invención de las pinzas ópticas por Arthur Ashkin y ejecucion luminica de bacterias.
     \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
-  \end{itemize}
-  }
-  \only<2>{
+  \end{itemize}}
+  
+\only<3>{
   \begin{itemize}
     \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
     \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
@@ -155,119 +155,38 @@
   \end{itemize}
   }
 
-}
-  \only<3>{
-    La primera vez que se planteó que la presión de radiación podría explicar un fenómeno fue propuesta por Kepler.
 
-    \refstepcounter{figure} % Incrementa figura globalmente
-    \centering
-    \includegraphics[width=0.5\linewidth]{cometa-e1561938278988.jpg}
+%  \only<4>{
 
-    \vspace{0.5em}
-    \textbf{Figura \arabic{figure}}:
-    Un cometa que orbita alrededor del sol apunta su cola en dirección opuesta al mismo.
-  }
 
- % \only<3>{
-  %  El primer sustento teórico vino de la teoría electromagnética de Maxwell.
-  %}
-
-  %\only<4>{
-   % Con las fuentes "naturales" de radiación, los fenómenos donde la presión de radiación jugaba un papel determinante eran astronómicos. 
-
-    %\refstepcounter{figure}
-    %\centering
-    %\includegraphics[scale=0.4]{Imagenes introduccion/Viking_Orbiter_releasing_the_lander.jpg}
+ %   \refstepcounter{figure} % Incrementa figura globalmente
+  %  \centering
+   % \includegraphics[width=0.5\linewidth]{cometa-e1561938278988.jpg}
 
     %\vspace{0.5em}
-    %\textbf{Figura 2}: Un ejemplo de la modernidad:
-    %La correcion de trayectoria de la mision viking.
-  %}
-  %\only<5>{
-    
-    %Con las fuentes "naturales" de radiación, los fenómenos donde la presión de radiación jugaba un papel determinante eran astronómicos. 
-
-   % \refstepcounter{figure}
-    %\centering
-    %\includegraphics[scale=0.4]{Imagenes introduccion/Viking_Orbiter_releasing_the_lander.jpg}
-
-    %\vspace{0.5em}
-    %\textbf{Figura 2}: Un ejemplo de la modernidad:
-    %La correcion de trayectoria de la mision viking.
-  %}
-%\end{frame}
-
-%\begin{frame}<1-3>
- % \frametitle{Introducción}
-  %\framesubtitle{El láser y las contribuciones de Ashkin.}
-
-  %\only<1>{
-   % La llegada del láser permitió, por primera vez, demostrar experimentalmente la aplicación de la \textbf{presión de radiación} en la manipulación de objetos en el laboratorio.
+    %\textbf{Figura \arabic{figure}}:
+    %Un cometa que orbita alrededor del sol apunta su cola en dirección opuesta al mismo.
   %}
 
-  %\only<2>{
-   % Esto llevaría al desarrollo de las \textbf{pinzas ópticas}.
-  %}
-%\begin{comment} \only<3>{
-    %Arthur Ashkin seria el pionero en estos desarrollos y recibiria el premio Nobel de Fisica en el 2018 
-    
-    %\refstepcounter{figure}
-    %\centering
-    %\includegraphics[scale=0.25]{Imagenes introduccion/NobelFis201801.jpg}
+ \end{frame}
 
-   % \vspace{0.5em}
-  %  \textbf{Figura 2}: Arthur Ashkin en Bell labs..
- % }
+
+
+
+
+
+
+
+
+
   
-  
-\end{frame}
-
-
-\begin{frame}<1-2>
-  %-------------------------------------------------------
-  \frametitle{Introducción}
-  \framesubtitle{Resumen cronológico.}
-  \only<1>{ 
-  \begin{itemize}
-    \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
-    \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
-    \item 1900s: Mediciones de la presión de radiación, por Albert Michelson y Francis Pease.
-    \item 1960: Invención del láser por Theodore Maiman.
-    \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas.
-    \item 1986: Invención de las pinzas ópticas por Arthur Ashkin y ejecucion luminica de bacterias.
-    \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
-  \end{itemize}
-  }
-  \only<2>{
-  \begin{itemize}
-    \item Siglo XVI: Idea de la presión de radiación de Kepler para explicar la orientación de los cometas.
-    \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación.
-    \item 1900s: Mediciones de la presión de radiación, Albert Michelson y Francis Pease realizaron la primera medición directa.
-    \item 1960: Invención del láser por Theodore Maiman.
-    \ \fbox{\begin{minipage}{.9\textwidth} 
-        \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas. 
-        \item 1986: Invención de las pinzas ópticas por Arthur Ashkin y ejecucion luminica de bacterias
-      \end{minipage}}
-    \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
-  \end{itemize}
-  }
-\end{frame}
-
-
-
-
-
-
-
-
- 
 %----------------------------------------
 \section{Marco teórico}
 
-\begin{frame}<1-8>
+\begin{frame}<1-7>
 \frametitle{Marco teórico}
 \framesubtitle{Diatomeas}
-\only<1>{Las diatomeas son organismos unicelulares que se encuentran en la mayoria de los cuerpos de agua en la tierra.
+\only<1>{Las diatomeas son organismos unicelulares que se encuentran en la mayoría de los cuerpos de agua en la tierra.
 }
 
 
@@ -297,52 +216,48 @@
         \caption*{\textbf{(d)}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub4}
       \end{subfigure}
-      \caption{Se han encontrado diatomeas en \textbf{Lagos} (a) y \textbf{Mares} (b), en cuerpos de agua efimeras como \textbf{tierra humeda (c)} e incluso en \textbf{Nucleos de hielo en la antartica}}
+      \caption{Se han encontrado diatomeas en lagos \textbf{(a)} y mares \textbf{(b)}, en cuerpos de agua efímeros como tierra húmeda \textbf{(c)} e incluso en núcleos de hielo en la Antártica \textbf{(d)}.}
       \label{fig:cuatro_subfiguras}
     \end{figure}
+\blfootnote{Fuente de la figura (d): Kelly (2019)}  
   }
 
-\only<3>{Las diatomeas son organismos unicelulares que se encuentran en la mayoria de los cuerpos de agua en la tierra.
+\only<3>{
 \vspace{0.7cm}
-{Propiedades que hacen interesantes a las diatomeas: 
+{Propiedades ecologicas de las diatomeas: 
+
+
 
 \begin{itemize}
-    \item Organismos unicelulares fotosinteticos
-    \item Grandes contribuidores de oxigeno ($20 - 25 \%$ del global)
-    \item Gran variedad de especies: mas de 100 000 especies identificadas. 
-    \item Valuadores historicos (debido a su acumulacion). 
-    \item indicadores ambientales (debido a su variedad)
-    \item Parte escencial de la cadena alimenticia acuatica.
-    %\item Frustule synthesized from monosilicic acid
-    %\item Frustule surface with micro- and nano-perforations (pores)
-    %\item Frustule provides potential UV protection==
-    %\item Frustule provides mechanical protection
-    %\item High capacity for light harvesting
-   % \item Significant oxygen producers (20-25\% globally)
-    %\item Frustule exhibits photonic bandgap-like structures
-    %\item Potential applications in solar cell enhancement
-    %\item Over 100,000 identified species
-    %\item Categorized by frustule symmetry (centric and pennate)
-    %\item Accumulation leads to diatomaceous earth
-    %\item Essential part of the aquatic food web
-    %\item Frustule can modify coherent laser light
-\end{itemize}}
-}
-\only<4>{\framesubtitle{Frustula} De suma importancia es notar la interaccion fructifera de las diatomeas con la luz.
+\item Organismos unicelulares fotosintéticos.
+\item Grandes contribuyentes de oxígeno ($20-25\%$ del global).
+\item Gran variedad de especies: más de 100,000 especies identificadas.
+\item Valiosos indicadores históricos (debido a su acumulación).
+\item Indicadores ambientales (debido a su variedad).
+\item Parte esencial de la cadena alimenticia acuática.
+\end{itemize}
 
-{\vspace{0.8cm} Investigaciones se han hecho sobre la interaccion de la luz con las diatomeas. En las cuales la frustula ha sido de particular interes.}}
+
+}
+
+
+
+
+}
+%\only<4>{\framesubtitle{Frustula} De suma importancia es notar la interaccion fructifera de las diatomeas con la luz.
+
+%{\vspace{0.8cm} Investigaciones se han hecho sobre la interaccion de la luz con las diatomeas. En las cuales la frustula ha sido de particular interes.}}
 %Las propiedades de las diatomeas no solo se limitan a la ecologia.\newline
 
 
-\only<5>{
-Las frustulas son un caparazon de silica que aparece en la etapa de crecimiento de la alga y establece una  clasificacion binaria dada por la simetria de las frustulas.
+\only<4>{
+Las frústulas son un caparazón de sílice que aparece en la etapa de crecimiento del alga y establece una clasificación binaria dada por la simetría de las frústulas.
    
-   \vspace{1cm}
-   \
+
 
 }
 
-\only<6>{
+\only<5>{
 
    \begin{figure}
       \centering
@@ -369,61 +284,64 @@ Las frustulas son un caparazon de silica que aparece en la etapa de crecimiento 
         \caption*{\textbf{(d) \textit{Stephanodiscus reimeri}}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub4}
       \end{subfigure}
-      \caption{Ejemplos de diatomeas con simetrias bilateral y central. \textbf{(a-b)}Especies con simetria biletaral (pennate diatom). \textbf{(c-d)} Especies con simetria central (centric diatom). }
+      \caption{Ejemplos de diatomeas con simetrías bilateral y central. \textbf{(a-b)} Especies con simetría bilateral (diatomea pennada). \textbf{(c-d)} Especies con simetría central (diatomea céntrica).}
       \label{fig:cuatro2_subfiguras}
     \end{figure}
-
+\blfootnote{Fuentes de las figuras:
+    (a) Pedreira, 2012, (b-c) Diatoms of North America, 2023, (d) Microscopy anatomy Olympus, 2022}
 }
 
 
-\only<7>{
+\only<6>{
 %Las frustulas tienen patrones intrensicos de poros y rendijas en toda su estructura. 
 
 \begin{figure}
   \centering
   \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png} % Renombra tu archivo a este
+    \includegraphics[width=0.9\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png} % Renombra tu archivo a este
     \caption*{\textbf{(a)}}
     \label{fig7:a}
     %\vspace{0.1cm}
   \end{subfigure}\hspace{0.5cm} % Espacio horizontal de 0.5cm
   \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png} % Renombra tu archivo a este
+    \includegraphics[width=0.9\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png} % Renombra tu archivo a este
     \caption*{\textbf{(b)}}
     \label{fig7:b}
     %\vspace{0.2cm}
   \end{subfigure}
 
   \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png} % Renombra tu archivo a este
+    \includegraphics[width=0.9\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png} % Renombra tu archivo a este
     \caption*{\textbf{(c)}}
     \label{fig7:c}
   \end{subfigure}\hspace{0.5cm} % Espacio horizontal de 0.5cm
   \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png} % Renombra tu archivo a este
+    \includegraphics[width=0.9\linewidth]{Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png} % Renombra tu archivo a este
     \caption*{\textbf{(d)}}
     \label{fig7:d}
   \end{subfigure}
   \caption{
-Imágenes de microscopio electrónico de barrido (MEB) de (a,c) - \emph{Navicula perminuta}, (b,d) \emph{Coscinodiscus wailesii}. Los rectángulos punteados en (a–b) corresponden a las áreas magnificadas en (c–d) que exhibe la arquitectura del frústulo. Imágenes tomadas de \cite{aguirre2018diatomDNAViolet}.}
+Imágenes de microscopio electrónico de barrido (MEB) de (a,c) - \emph{Navicula perminuta}, (b,d) \emph{Coscinodiscus wailesii}. Los rectángulos punteados en (a–b) corresponden a las áreas magnificadas en (c–d) que exhibe la arquitectura del frústulo. }
   \label{poresfrustrules}
-\end{figure}}
-\only<8>{\begin{block}{Propiedades de las frustulas:}
+  
+
+ 
+\end{figure}
+\blfootnote{Fuente de las figuras (a-c): Aguirre et al. (2018)}
+
+}
+
+
+
+\only<7>{\begin{block}{Propiedades de las frustulas:}
 \begin{itemize}
-\item Las frustulas tienen patrones intrensicos de poros y rendijas en toda su estructura. 
-    \item Frústulo sintetizado a partir de ácido monosilícico
-    %\item Superficie del frústulo con micro y nanoporos (poros)
-    \item El frústulo proporciona potencial protección UV
-    \item El frústulo proporciona protección mecánica
-    \item Alta capacidad para la captación de luz
-    %\item Productores significativos de oxígeno (20-25\% a nivel global)
-    \item El frústulo exhibe estructuras similares a bandas fotónicas prohibidas
-    \item Aplicaciones potenciales en la mejora de células solares
-   % \item Más de 100,000 especies identificadas
-    \item Categorizadas por la simetría del frústulo (céntricas y pennadas)
-    %\item La acumulación lleva a la tierra de diatomeas
-    %\item Parte esencial de la red trófica acuática
-    \item El frústulo puede modificar la luz láser coherente
+\item Las frústulas tienen patrones intrínsecos de poros y rendijas en toda su estructura.
+\item Frústulo sintetizado a partir de ácido monosilícico.
+\item El frústulo proporciona potencial protección UV.
+\item El frústulo proporciona protección mecánica.
+\item El frústulo exhibe estructuras similares a bandas fotónicas prohibidas.
+\item Aplicaciones potenciales en la mejora de células solares.
+\item Categorizadas por la simetría del frústulo (céntricas y pennadas).
 \end{itemize}
 \end{block}
 
@@ -441,23 +359,31 @@ Imágenes de microscopio electrónico de barrido (MEB) de (a,c) - \emph{Navicula
 \begin{figure}
     \centering
     \includegraphics[scale=0.3]{Microscopeinvertedtrain.png}
-    \caption{Componentes de un microscopio invertido (microscopio Olympus IX70). A diferencia de un microscopio estándar, el microscopio invertido tiene un sistema de iluminación y sus lentes de condensador por encima de la platina. Imagen tomada de \cite{Fester_Davidson_Abramowitz}. \label{FluorescenceM}}
+    \caption{Componentes de un microscopio invertido (microscopio Olympus IX70). A diferencia de un microscopio estándar.}
     \label{Microscope inverted}
 \end{figure}
+\blfootnote{\scriptsize Fuente de la figura: Fester et al., 2023}
 
 
 \end{frame}
 %---------------------------------
 \begin{frame}<1-10>
-\frametitle{Marco teórico}\framesubtitle{Pinzas opticas}
+\frametitle{Marco teórico}
+
+
+\framesubtitle{Pinzas ópticas}
 \only<1>{
-Las pinzas opticas son dispositivos que permiten la manipulacion sin contacto de objetos con tamaños que varían desde la escala atómica hasta la micrométrica. 
-\begin{block}{Pinzas opticas}
+Las pinzas ópticas son dispositivos que permiten la manipulación sin contacto de objetos con tamaños que varían desde la escala atómica hasta la micrométrica.
+\begin{block}{Pinzas ópticas}
 \begin{itemize}
-\item Consisten de un haz laser altamente enfocado.
-\item comunmente las pinzas opticas se generan al enfocar el haz del laser sobrellenando un lente objetivo con un alto numero de apertura. 
-\item Dependiendo de la relacion entre la longitud de onda del laser y el tamano de las particulas de estudio se tienen regimenes teoricos de estudio de las fuerzas que aparecen en la presion de radiacion. 
+\item Consisten en un haz láser altamente enfocado.
+\item Comúnmente, las pinzas ópticas se generan al enfocar el haz del láser sobrellenando una lente objetivo con un alto número de apertura numérica.
+%\item Dependiendo de la relación entre la longitud de onda del láser y el tamaño de las partículas de estudio, se tienen regímenes teóricos para el estudio de las fuerzas que aparecen debido a la presión de radiación.
 \end{itemize}
+
+
+
+
 
 \end{block}}
 %\only<2>{\frametitle{Marco teórico}\framesubtitle{Alineacion de las pinzas opticas.}
@@ -471,36 +397,36 @@ Las pinzas opticas son dispositivos que permiten la manipulacion sin contacto de
 \begin{figure}
     \centering
     \includegraphics[scale=0.45]{foton2.png}
-    \caption{Un foton con momento $\vec{p} = \frac{h}{\lambda} \hat{z}$ incide perpendicularmente en particula que funciona como un espejo perfecto.}
+    \caption{Un fot\'on con momento $\vec{p} = \frac{h}{\lambda} \hat{z}$ incide perpendicularmente en una part\'icula que funciona como un espejo perfecto.}
     \label{foton}
 \end{figure}
 
 }
 
 
-\only<3>{\framesubtitle{Regimenes teoricos.}
+\only<3>{\framesubtitle{Regímenes teóricos.}
 
-El regimen teorico para aproximar el estudio de las fuerzas opticas en las pinzas opticas es determinado por
+El régimen teórico para aproximar el estudio de las fuerzas ópticas en las pinzas ópticas es determinado por (Jones et al., 2015)
 \begin{equation}
 \xi = \frac{2\pi a n_i}{\lambda_0}
-\end{equation} 
+\end{equation}
 \vspace{0.8cm}
 donde,
 \begin{itemize}
-    \item $\xi$ se define como el parámetro de tamaño de la partícula,
-    \item $a$ es un parámetro característico para el tamaño de la partícula.
+    \item $\xi$ se define como el parámetro de tamaño de la partícula.
+    \item $a$ es un parámetro característico del tamaño de la partícula.
     \item $\lambda_0$ representa la longitud de onda de la fuente de luz en el vacío, y
-    \item $n_i$ el índice de refracción del medio circundante.
+    \item $n_i$ es el índice de refracción del medio circundante.
 \end{itemize}
 }
 \only<4>{
 \begin{itemize}
-\item Si $\xi \gg 1 $ el regimen de la optica geometrica es un buen aproximador
-\item $\xi \ll 1$ Un tratamiento desde el punto de vista electromagnetico (Rayleigh), considerando a la particula atrapada como un dipolo electrico inducido oscilante. 
-\item Si $\xi \sim 1$ el regimen intermedio de la teoria generalizada de Lorenz-mie es mas adecuado para describir a las fuerzas en las pinzas opticas. 
-
-\end{itemize}\vspace{0.8 cm}
-En el caso de una particula esferica de 10 micrometros de radio en agua, siendo expuesta a un laser de $532 nm$ de longitud de onda, se tiene $\xi = 157.08 \gg 1$ .
+    \item Si $\xi \gg 1$, el régimen de la óptica geométrica es una buena aproximación.
+    \item Si $\xi \ll 1$, un tratamiento desde el punto de vista electromagnético (Rayleigh) es adecuado, considerando a la partícula atrapada como un dipolo eléctrico inducido oscilante.
+    \item Si $\xi \sim 1$, el régimen intermedio de la teoría generalizada de Lorenz-Mie es más adecuado para describir las fuerzas en las pinzas ópticas.
+\end{itemize}
+\vspace{0.8 cm}
+En el caso de una partícula esférica de 10 micrómetros de radio en agua, siendo expuesta a un láser de $532 \, \text{nm}$ de longitud de onda, se tiene $\xi = 157.08 \gg 1$.
 }
 
 
@@ -510,7 +436,7 @@ En el caso de una particula esferica de 10 micrometros de radio en agua, siendo 
 \begin{figure}
     \centering
     \includegraphics[scale=0.16]{beadrayoptics2.png}
-    \caption{(a) Un rayo incidente $r_i$ incide sobre la superficie de una esfera. De esta interacción de dispersión, tendremos un componente transmitido y uno reflejado ($r_{r,0}$ y $r_{t,0}$) del rayo de luz. El rayo transmitido $r_{t,0}$ sufrirá otro proceso de dispersión, produciendo un nuevo par de haces de rayos ($r_{t,1}$ y $r_{r,1}$); el proceso de dispersión dentro de la esfera continuará hasta que toda la luz haya escapado de la esfera. Virtualmente toda la luz ha escapado de la esfera en menos de 10 eventos de dispersión \cite{jones2015optical}.}
+    \caption{(a) Un rayo incidente $r_i$ incide sobre la superficie de una esfera. De esta interacción de dispersión, tendremos un componente transmitido y uno reflejado ($r_{r,0}$ y $r_{t,0}$) del rayo de luz. El rayo transmitido $r_{t,0}$ sufrirá otro proceso de dispersión, produciendo un nuevo par de haces de rayos ($r_{t,1}$ y $r_{r,1}$); el proceso de dispersión dentro de la esfera continuará hasta que toda la luz haya escapado de la esfera. Virtualmente toda la luz ha escapado de la esfera en menos de 10 eventos de dispersión.}
     \label{bead_optics}
 \end{figure}
 }
@@ -522,7 +448,7 @@ En el caso de una particula esferica de 10 micrometros de radio en agua, siendo 
 \begin{figure}
     \centering
     \includegraphics[trim={0cm 7.5cm 2cm 6cm },scale=0.37]{Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png}
-    \caption{Una particula esferica sometida a un haz láser gaussiano. La esfera está fuera del eje de simetría del haz láser. Por lo tanto, la fuerza producida por el rayo de la izquierda será más fuerte que la del rayo de la derecha debido a un mayor número de fotones (mayor intensidad láser) para el primero. La figura muestra las fuerzas que actúan sobre la esfera debido al haz láser $F_{grad}$ y $F_{scat}$. }
+    \caption{Una part\'icula esferica sometida a un haz láser gaussiano. La esfera está fuera del eje de simetría del haz láser. Por lo tanto, la fuerza producida por el rayo de la izquierda será más fuerte que la del rayo de la derecha debido a un mayor número de fotones (mayor intensidad láser) para el primero. La figura muestra las fuerzas que actúan sobre la esfera debido al haz láser $F_{grad}$ y $F_{scat}$. }
     \label{Microscope inverted}
 \end{figure}
 
@@ -530,15 +456,15 @@ En el caso de una particula esferica de 10 micrometros de radio en agua, siendo 
 
 
 }
-\only<7>{\framesubtitle{Fuerza del primer evento de dispersion.}
-Para un rayo incidente como el mostrado en la figura \ref{bead_optics}, en su primer proceso de dispersion se tiene
+\only<7>{\framesubtitle{Fuerza del primer evento de dispersión.}
+Para un rayo incidente como el mostrado en la figura \ref{bead_optics}, en su primer proceso de dispersión se tiene
 \begin{equation}
 \mathbf{F}_{\text {ray }, 0}=\frac{n_{\mathrm{i}} P_{\mathrm{i}}}{c} \hat{\mathbf{r}}_{\mathrm{i}}-\frac{n_{\mathrm{i}} P_{\mathrm{r}}}{c} \hat{\mathbf{r}}_{\mathrm{r}}-\frac{n_{\mathrm{t}} P_{\mathrm{t}}}{c} \hat{\mathbf{r}}_{\mathrm{t}},
 \label{forcefirstevent}
 \end{equation}
 
 \begin{itemize}
-    \item $P_r$, $P_t$, y $P_i$ son las potencias del componente reflejado, transmitido e incidente del proceso de dispersion,
+    \item $P_r$, $P_t$, y $P_i$ son las potencias del componente reflejado, transmitido e incidente del proceso de dispersión,
     \item $n_i$ y $n_t$ denotan los índices de refracción del medio, y la partícula respectivamente.
     \item Aquí, $\hat{\mathbf{r_i}}$, $\hat{\mathbf{r_r}}$, y $\hat{\mathbf{r_t}}$ son los vectores unitarios que representan la dirección de los componentes incidente, reflejado y transmitido para el primer proceso de dispersión del rayo de luz incidente en la esfera.
 \end{itemize}
@@ -546,13 +472,13 @@ Para un rayo incidente como el mostrado en la figura \ref{bead_optics}, en su pr
 
 
 
-\only<8>{\framesubtitle{El proceso asintotico por rayo.}
-De manera teorica para este rayo incidente, se tendran infinitos procesos de dispersion,
+\only<8>{\framesubtitle{El proceso asint\'otico por rayo.}
+De manera teórica para este rayo incidente, se tendran infinitos procesos de dispersión,
 \begin{equation}
 \mathbf{F}_{\text {ray }}=\frac{n_{\mathrm{i}} P_{\mathrm{i}}}{c} \hat{\mathbf{r}}_{\mathrm{i}}-\frac{n_{\mathrm{i}} P_{\mathrm{r}}}{c} \hat{\mathbf{r}}_{\mathrm{r}, 0}-\sum_{n=1}^{+\infty} \frac{n_{\mathrm{i}} P_{\mathrm{t}, n}}{c} \hat{\mathbf{r}}_{\mathrm{t}, n},
 \label{infinitesum}
 \end{equation}
-En principio se tendria que calcular la suma infinita para encontrar la fuerza exacta, sin embargo la contribucion mas grande proviene de los dos primeros procesos y virtualmente la potencia se vuelve cero despues de las 10 iteraciones del proceso.
+En principio se tendría que calcular la suma infinita para encontrar la fuerza exacta, sin embargo la contribución más grande proviene de los dos primeros procesos y virtualmente la potencia se vuelve cero despues de las 10 iteraciones del proceso.
 
 
 }
@@ -573,7 +499,7 @@ La fuerza total debido al la radiacion electromagnetica, considerando "todos" lo
 \begin{figure}
     \centering
     \includegraphics[scale=0.35]{Screenshot 2025-03-05 004832.png}
-    \caption{Fuerzas ópticas $F_g$ y $F_s$ (fuerza de gradiente y fuerza de dispersión respectivamente) sobre una partícula esférica de $SiO_2$ de $6.59 \mu m$ producidas por un haz láser enfocado con una potencia establecida en $120 mW$. Las fuerzas ópticas se calculan en función de la posición a lo largo del eje transversal x del centro de masa de la partícula atrapada utilizando el software OTGO. El foco del haz láser en el software se considera obtenido sobrellenando un objetivo de microscopio con apertura numérica 1.0 y aumento de 60X.}
+    \caption{Fuerzas ópticas $F_g$ y $F_s$ (fuerza de gradiente y fuerza de dispersión respectivamente) sobre una partícula esférica de $SiO_2$ de $6.59 \mu m$ producidas por un haz láser enfocado con una potencia establecida en $120 mW$. Las fuerzas ópticas se calculan en función de la posición a lo largo del eje transversal x del centro de masa de la partícula atrapada utilizando el software OTGO (Callegari et al. (2015). El foco del haz láser en el software se considera obtenido sobrellenando un objetivo de microscopio con apertura numérica 1.0 y aumento de 60X.}
     \label{OpticalforcessetupKaren}
 \end{figure} 
 
@@ -594,23 +520,23 @@ La fuerza total debido al la radiacion electromagnetica, considerando "todos" lo
 
 
 
-\begin{frame}<1-5>
-\frametitle{Marco teorico}
-\only<1>{\frametitle{Marco teorico}\framesubtitle{Microfluidicos}
+\begin{frame}<1-4>
+\frametitle{Marco teórico}
+\only<1>{\frametitle{Marco teórico}\framesubtitle{Microfluidicos}
 Un dispositivo microfluídico es un sistema diseñado para manipular y manejar pequeñas cantidades de fluidos a escala de micrómetros.
  \begin{figure}
      \centering
      \includegraphics[scale=0.35]{microfluidicinaction.png}
-     \caption{Un dispositivo microfluídico colocado en la platina de un microscopio invertido. Esta configuración permite el seguimiento visual de los fenómenos que ocurren en los microcanales. Imagen tomada de \cite{Wanucha_2012} con permiso de los autores.}
+     \caption{Un dispositivo microfluídico colocado en la platina de un microscopio invertido. Esta configuración permite el seguimiento visual de los fenómenos que ocurren en los microcanales.}
      \label{microfluidic_device} .
- \end{figure}}
- 
+ \end{figure}
+\blfootnote{Fuente de la figura: Wanucha (2012)}}
  \only<2>{\framesubtitle{Microfluidicos: Un diseño simple.}
  
  \begin{figure}
      \centering
      \includegraphics[trim = {0 1.5cm 0 0.7cm}, scale=0.4]{Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at 5.34.18 PM.png}
-     \caption{Un diseño tipo Y de dispositivo microfluídico. Con dos entradas y una salida, este diseño es útil para aplicaciones de mezcla de microfluidos y microrreactores \cite{niculescu2022review}. }
+     \caption{Un diseño tipo Y de dispositivo microfluídico. Con dos entradas y una salida, este diseño es útil para aplicaciones de mezcla de microfluidos.}
      \label{simple design}
  \end{figure}
  
@@ -625,8 +551,8 @@ Un dispositivo microfluídico es un sistema diseñado para manipular y manejar p
     \item Red de microcanales interconectados.
     \item Control preciso del flujo del líquido.
     \item Permite un entorno estable para experimentos donde se requiere regulación estricta de temperatura, presión y concentraciones químicas.
-    \item Proporciona un flujo continuo de fluido y recarga en caso de evaporación o intercambio de fluidos.
-   % \item Permite la aceleración del fluido y la manipulación controlada.
+    \item Proporciona un flujo continuo de fluído y recarga en caso de evaporación o intercambio de fluidos.
+   % \item Permite la aceleración del fluído y la manipulación controlada.
     \item Fabricación con diversos materiales (silicio, vidrio, PDMS, metales), ofreciendo diversas propiedades físicas.
     \item Variedad de diseños para la red de canales.
     \item Bajo consumo de muestra.
@@ -634,14 +560,10 @@ Un dispositivo microfluídico es un sistema diseñado para manipular y manejar p
  \end{block}
  
  }
- \only<4>{\framesubtitle{Utilidad de los microfluidicos}
  
- 
- Los dispositivos microfluídicos encuentran aplicaciones en un amplio espectro de campos, incluyendo la biología (p. ej., análisis de ADN y clasificación celular \cite{wang2011enhancedmicroandopti,paegel2003microfluidicDNA}), la química (p. ej., síntesis y análisis de químicos \cite{niculescu2022review}) y la física (p. ej., estudios de dinámica de fluidos).}
- 
- \only<5>{\framesubtitle{La fuerza de Stokes}
+ \only<4>{\framesubtitle{La fuerza de Stokes}
 
-Para una partícula esférica de radio \( r \) que se mueve con una velocidad \( \mathbf{v} \) en un fluido de viscosidad dinámica \( \mu \), la fuerza de arrastre \( \mathbf{F}_d \) es
+Para una partícula esférica de radio \( r \) que se mueve con una velocidad \( \mathbf{v} \) en un fluído de viscosidad dinámica \( \mu \), la fuerza de arrastre \( \mathbf{F}_d \) es (Pau et al., 1990):
 \begin{equation}
     \mathbf{F}_d = 6 \pi \mu r \mathbf{v}.
 \end{equation} 
@@ -650,8 +572,8 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
  
 \end{frame}
 
-\section{Metodos experimentales}
-\begin{frame}{Metodos experimentales}{Arreglo experimental}
+\section{métodos experimentales}
+\begin{frame}{métodos experimentales}{Arreglo experimental}
 
 \begin{figure}
     \centering
@@ -663,29 +585,17 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
 \end{frame}
 
 
-
-\begin{frame}{Metodos experimentales}{Alineacion de las pinzas opticas.}
-\begin{figure}[H]
-    \centering
-    \subfloat[\centering]{{\includegraphics[scale=0.12]{Diatomsexperimentalmethods/Backscateringpattern/backscattered.jpeg} }}%
-    \qquad
-    \subfloat[\centering]{{\includegraphics[scale=0.12]{Diatomsexperimentalmethods/Backscateringpattern/inmicrofluidics.jpeg} }}%
-    \caption{Patrones de luz retrodispersada capturados con la cámara Axis M1103. En ambas figuras se utilizó el objetivo de microscopio de inmersión en agua para enfocar la luz láser. (a) Patrón de radiación retrodispersada producido desde un portaobjetos sin muestra. (b) Patrón de radiación retrodispersada observado a través del dispositivo microfluídico utilizado en este trabajo.}%
-    \label{symmetricpattern}%
-\end{figure}
-\end{frame}
-
-\begin{frame}{Metodos experimentales}{Especificos}
+\begin{frame}{métodos experimentales}{Especificos}
 
 \end{frame}
 
-\begin{frame}<1-4>\frametitle{Metodos experimentales}\framesubtitle{Muestras}
+\begin{frame}<1-4>\frametitle{métodos experimentales}\framesubtitle{Muestras}
 
 \only<1>{
 \begin{itemize}
-\item Las particulas de $SiO_2$ artificiales utilizadas ($24.82 \mu m$, $19.98 \mu m$, $6.59 \mu m$, y $4.27 \mu m$) estaban contenidas en una suspension acuosa con concentracion de $2.5 \% w/v$.
+\item Las partículas de $SiO_2$ artificiales utilizadas ($24.82 \mu m$, $19.98 \mu m$, $6.59 \mu m$, y $4.27 \mu m$) estaban contenidas en una suspension acuosa con concentración de $2.5 \% w/v$.
 \item Solución acuosa de células de levadura al $2\%$ $p/v$ (peso/volumen).
-\item Las especies de diatomeas utilizadas son \textit{Nitzschia sp}, \textit{Phaeodactylum tricornutum}, \textit{Thalassiosira pseudonana}, \textit{Navicula Sp. 12} y  \textit{Marine pennate}.
+\item Las especies de diatomeas utilizadas son \textit{Nitzschia sp}, \textit{Phaeodactylum tricornutum}, \textit{Thalassiosira pseudonana}, \textit{Navicula Sp. 12} y  \textit{Marine pennada}.
 \end{itemize}
 
 
@@ -712,7 +622,7 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
 \includegraphics[width=0.22\textwidth]{Diatomsexperimentalmethods/ray.jpeg} \\
 \text{(d)}  & \text{(e)}  \\[6pt]
 \end{tabular}
-\caption{Especies de diatomeas estudiadas en este trabajo, fotografiadas con el objetivo de microscopio de inmersión en agua. (a) Multitud de \textit{Nitzschia sp}. (b) Muestra de la especie de diatomea \textit{Phaeodactylum tricornutum}. (c) Muestra de la especie de diatomea \textit{Thalassiosira pseudonana}. (d) Diatomea \textit{Navicula Sp. 12}. (e) Diatomea \textit{Pennada marina}}.
+\caption{Especies de diatomeas estudiadas en este trabajo, fotografiadas con el objetivo de microscopio de inmersión en agua. (a) Multitud de \textit{Nitzschia sp}. (b) muestra de la especie de diatomea \textit{Phaeodactylum tricornutum}. (c) muestra de la especie de diatomea \textit{Thalassiosira pseudonana}. (d) Diatomea \textit{Navicula Sp. 12}. (e) Diatomea \textit{Pennada marina}}.
 \label{DiatomExperiments}
 \end{figure}
 
@@ -720,7 +630,7 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
 
 }
 
-\only<3>{\framesubtitle{Preparacion de muestras}
+\only<3>{\framesubtitle{preparación de muestras}
 
 \begin{figure}
     \centering
@@ -738,7 +648,7 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.35]{Diatomsexperimentalmethods/Samplepreparation/Screen Shot 2024-01-18 at 12.50.20 PM.png}
-    \caption{Esquema del sistema microfluídico. La bomba de jeringa controla la velocidad de flujo de la solución que entra al canal a través del tubo de alimentación (FP) integrado en la entrada del canal. Una vez que el fluido alcanza la salida del canal, un tubo de salida (OP) dirige la solución efluente a un reservorio.}
+    \caption{Esquema del sistema microfluídico. La bomba de jeringa controla la velocidad de flujo de la solución que entra al canal a través del tubo de alimentación (FP) integrado en la entrada del canal. Una vez que el fluído alcanza la salida del canal, un tubo de salida (OP) dirige la solución efluente a un reservorio.}
     \label{microfluidicsystem}
 \end{figure}
 
@@ -752,8 +662,8 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
 %-------------------------------------------------------
 \section{Resultados}
 %-------------------------------------------------------
-\begin{frame}<1-3>
-\frametitle{Resultados}\framesubtitle{Manipulacion de particulas de silica.}
+\begin{frame}<1-2>
+\frametitle{Resultados}\framesubtitle{Manipulacion de partículas de silica.}
 
 \only<1>{
 \begin{figure}
@@ -787,21 +697,9 @@ Atrapamiento de partículas de $SiO_2$ de 4.27 $\mu m$. Potencia láser incident
 \end{figure}}
 
 
+
+
 \only<2>{
-
-\begin{figure}
-    \centering
-    \includemovie[autoplay]{12cm}{7cm}{circle.mp4}
-    \caption{Atrapamiento de partículas de $SiO_{2}$ de $24.82 \mu m$. La trampa se produjo con el objetivo de inmersión en agua (MO) y un expansor de haz de 5x (potencia láser establecida en 96 $mW$).}
-    \label{fig:enter-label}
-\end{figure}
-
-
-}
-
-
-
-\only<3>{
 
 \begin{figure}
     \centering
@@ -814,7 +712,7 @@ Atrapamiento de partículas de $SiO_2$ de 4.27 $\mu m$. Potencia láser incident
 \end{frame}
 
 \begin{frame}<1-2>
-\frametitle{Resultados}\framesubtitle{Atrapamiento de celulas de levadura.}
+\frametitle{Resultados}\framesubtitle{Atrapamiento de células de levadura.}
 \only<1>{
 
 \begin{figure}
@@ -884,8 +782,8 @@ Atrapamiento de partículas de $SiO_2$ de 4.27 $\mu m$. Potencia láser incident
 \end{frame}
 
 
-\begin{frame}<1-5>
-\frametitle{Resultados}\framesubtitle{Atrapamiento de diatomeas pennate}
+\begin{frame}<1-4>
+\frametitle{Resultados}\framesubtitle{Atrapamiento de diatomeas pennada}
 
 \only<1>{
 
@@ -958,34 +856,8 @@ Manipulación de \textit{Nitzschia Sp.1} (pennada) con el objetivo de inmersión
 }
 
 
+
 \only<3>{
-
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}[b]{0.49\textwidth}
-         \centering
-         \includegraphics[width=0.6\textwidth]{Results/Resultadosalgea2/oil1.png}
-         \caption{}
-         \label{fig:y equals x}
-     \end{subfigure}
-     \hfill
-     \begin{subfigure}[b]{0.49\textwidth}
-         \centering
-         \includegraphics[width=0.60\textwidth]{Results/Resultadosalgea2/oilt2.png}
-         \caption{}
-         \label{fig:three sin x}
-     \end{subfigure}
-     \caption{Atrapamiento de \textit{Phaeodactylum tricornutum} (pennada) con el objetivo de inmersión en aceite (MO) y un expansor de haz de 10x. La potencia láser se estableció en 27 $mW$. (a) La diatomea se encuentra sobre la superficie del portaobjetos cuando el láser está apagado. (b) Se enciende el láser y la diatomea alcanza su posición de atrapamiento dentro de las pinzas ópticas debido a la fuerza de gradiente. }
-\label{OISECOND2}
-     \hfill
-    %%
-\end{figure}
-
-
-}
-
-\only<4>{
 
 \begin{figure}
      \centering
@@ -1010,14 +882,14 @@ Manipulación de \textit{Nitzschia Sp.1} (pennada) con el objetivo de inmersión
          \label{fig:five over x}
      \end{subfigure}
        
-     \caption{Atrapamiento de \textit{Marine pennate} (pennada) con el objetivo de inmersión en aceite (MO) y un expansor de haz de 2x. La potencia láser se estableció en 232 $mW$. (a-c) Cuadros ordenados cronológicamente del video grabado del atrapamiento de la diatomea pennada mencionada. (a) La diatomea comienza estando sobre la superficie del portaobjetos cuando el láser está apagado. (b-c) Cuando se enciende el láser, la diatomea se mueve hacia su posición de atrapamiento dentro de las pinzas ópticas debido a la fuerza de gradiente.}
+     \caption{Atrapamiento de \textit{Marine pennada} (pennada) con el objetivo de inmersión en aceite (MO) y un expansor de haz de 2x. La potencia láser se estableció en 232 $mW$. (a-c) Cuadros ordenados cronológicamente del video grabado del atrapamiento de la diatomea pennada mencionada. (a) La diatomea comienza estando sobre la superficie del portaobjetos cuando el láser está apagado. (b-c) Cuando se enciende el láser, la diatomea se mueve hacia su posición de atrapamiento dentro de las pinzas ópticas debido a la fuerza de gradiente.}
 \label{WIFORTH1}
      
 \end{figure}
 
 }
 
-\only<5>{
+\only<4>{
 
 
 \begin{figure}[H]
@@ -1058,8 +930,8 @@ Manipulación de \textit{Nitzschia Sp.1} (pennada) con el objetivo de inmersión
 
 \end{frame}
 
-\begin{frame}<1-2>
-\frametitle{Resultados}\framesubtitle{Atrapamiento de  diatomea centrica}
+\begin{frame}<1>
+\frametitle{Resultados}\framesubtitle{Atrapamiento de  diatomea céntrica}
 
 \only<1>{
 
@@ -1097,72 +969,16 @@ Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de
 }
 
 
-\only<2>{
-\begin{figure}
-  \centering
-  \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth ,height=2.3cm]{Results/ResultsOilpseudonana/op1.png} % Renombra tu archivo a este
-    \caption*{\textbf{(a)}}
-    \label{fig7:a}
-    %\vspace{0.1cm}
-  \end{subfigure}\hspace{0.5cm} % Espacio horizontal de 0.5cm
-  \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth ,,height=2.3cm]{Results/ResultsOilpseudonana/op2.png} % Renombra tu archivo a este
-    \caption*{\textbf{(b)}}
-    \label{fig7:b}
-    %\vspace{0.2cm}
-  \end{subfigure}
-
-  \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Results/ResultsOilpseudonana/op3.png} % Renombra tu archivo a este
-    \caption*{\textbf{(c)}}
-    \label{fig7:c}
-  \end{subfigure}\hspace{0.5cm} % Espacio horizontal de 0.5cm
-  \begin{subfigure}[b]{0.2\linewidth}
-    \includegraphics[width=\linewidth]{Results/ResultsOilpseudonana/op4.png} % Renombra tu archivo a este
-    \caption*{\textbf{(d)}}
-    \label{fig7:d}
-  \end{subfigure}
-  \caption{
-Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de inmersión en aceite (MO) y un expansor de haz de 10x. La potencia láser se estableció en 91 $mW$. (a-d) Cuadros del video grabado al someter la diatomea al haz láser: La diatomea atrapada permanece inmóvil debido a la acción de la fuerza de gradiente, mientras que las circundantes cambiaron su posición relativa. }
-  \label{poresfrustrules}
-\end{figure}
-
-}
 
 \end{frame}
 
 
-\begin{frame}<1-2>
+\begin{frame}<1>
 \frametitle{Results}\framesubtitle{Atrapamiento en microfluidicos}
 
-\only<1>{
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}[b]{0.49\textwidth}
-         \centering
-         \includegraphics[width=0.95\textwidth]{Newplots_microfluidics_results/Silica_particles.png}
-         %surpass the gradient force.
-         \caption{Optical tweezers performance for the spherical 6.59 $\mu m$ $SiO_2$ particles.}
-         \label{fig:y equals x}
-     \end{subfigure}
-     \hfill
-     \begin{subfigure}[b]{0.49\textwidth}
-         \centering
-         \includegraphics[width=0.95\textwidth]{Newplots_microfluidics_results/Thala.png}
-         \caption{Optical tweezers performance for the \textit{Thalassiosira pseudonana} diatom.}
-         \label{fig:three sin x}
-     \end{subfigure}
-     \caption{Velocidad de flujo umbral promedio (ATFV) para superar la fuerza de gradiente de las pinzas ópticas para (a) partículas esféricas artificiales de sílice y (b) la diatomea \textit{Thalassiosira pseudonana}. El eje vertical representa la velocidad de flujo umbral promedio con desviación estándar $(\sigma)$ para las diferentes potencias láser en el eje horizontal.}
-     \hfill
-    \label{graficasmicrofluidics} 
-\end{figure}
 
 
-}
-
-\only<2>{\framesubtitle{Calculo de fuerza gradiente}
+\only<1>{\framesubtitle{cálculo de fuerza gradiente}
 
 
 \begin{figure}[H]
@@ -1192,66 +1008,11 @@ Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de
 
 \end{frame}
 
-%trial 
-
-
-%funciona, pero abre un video extra en un reproductor. 
-
-%\begin{frame}{Video on the computer}
- %   \centering
-  %  \movie[externalviewer]{\includegraphics[width=\textheight, keepaspectratio]{logofac.png}}{/home/raymundo/Downloads/circlejonas.mp4}
-%\end{frame}
-
-
-
-
-%\begin{frame}{Resultados 1}{Manipulacion de particulas de silica sinteticas}
-%-------------------------------------------------------
-%\begin{figure}
- %   \centering
-  %  \includemovie[autoplay]{12cm}{7cm}{circlejonas.mp4}
-   % \caption{2D manipulation of 20.49 $\mu m $ silica particle.}
-    %\label{fig:enter-label}
-%\end{figure}
-  %\begin{itemize}
-   % \item Se ha definido el color \textcolor{unamblue}{unamblue}
-    %\item Se ha definido el color \textcolor{unamgold}{unamgold}
-  %\end{itemize}
-
-%\blfootnote{Se puede usar blfootnote para referencias sin número.}
-
-%\end{frame}
-
-%\begin{frame}{Resultados 1}{Atrapamiento de celulas de levadura.}
-%-------------------------------------------------------
-
-%\begin{block}{Bloque de texto}
- % \begin{itemize}
-  %  \item Información 1
-   % \item Información 2
-    %\item Información 3
-    %\item Información 4
-  %\end{itemize}
-%\end{block}
-
-%\blfootnote{Autor, D. Int. J. Quantum Power, 152(1), 125-130 (2023)}
-
-%\end{frame}
-\begin{comment}
-%\begin{frame}{Resultados 1}{Ejecucion por luz de las celulas de levaudra.}
-%Ejemplifica el efecto detrimental de la radiacion en las celulas vivas.
-%\end{frame}
 
 
 
 
 
-%\begin{frame}{Resultados 2}{Cuantificacion de fuerzas}
-    
-%\end{frame}
-
-\end{comment}
-%-------------------------------------------------------
 \section{Conclusiones}
 %-------------------------------------------------------
 \begin{frame}<1-4>\frametitle{Conclusiones}
@@ -1281,13 +1042,13 @@ Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de
     \begin{itemize}
             \item Manipulación 3D de células de levadura, formando patrones sobre el portaobjetos.
         \item Se observó muerte celular inducida por luz (\textit{opticution}).
-        \item Manipulación de especies de diatomeas: \textit{Nitzchia sp.1}, \textit{Phaeodactylum tricornutum}, \textit{Navicula Sp.12}, \textit{Marine pennate} y \textit{Thalassiosira pseudonana}.
+        \item Manipulación de especies de diatomeas: \textit{Nitzchia sp.1}, \textit{Phaeodactylum tricornutum}, \textit{Navicula Sp.12}, \textit{Marine pennada} y \textit{Thalassiosira pseudonana}.
         %\item Diatomeas con simetría bilateral tendieron a rotar y alinear su eje con el eje vertical.
     \end{itemize}
     
     \item \textbf{Uso de dispositivos microfluídicos:}
     \begin{itemize}
-        \item Medición de la velocidad del fluido necesaria para liberar partículas atrapadas.
+        \item Medición de la velocidad del fluído necesaria para liberar partículas atrapadas.
         \item Cálculo de la fuerza de gradiente a partir de la fuerza de Stokes.
         %\item Fuerzas experimentales mayores que las teóricas, posibles causas:
 
@@ -1302,14 +1063,15 @@ Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de
 
 
 \only<3>{
-
+Sobre la fuerza de Stokes y la diferencia entre la fuerza experimental y la te\'orica.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{profile.png}
-    \caption{Perfil de velocidad de un fluido}
+    \caption{Perfil de velocidad de un fluído}
     \label{fig:etiqueta}
 \end{figure}
 
+\blfootnote{Fuente de la figura: Reisfeld (2023)}
 }
 
 \only<4>{
@@ -1329,18 +1091,10 @@ Atrapamiento de \textit{Thalassiosira pseudonana} (céntrica) con el objetivo de
 }
 
 \end{frame}
-%\section*{Extra slides}
-%\begin{frame}{Presion radiacion}{Subtítulo Genérico}
-%-------------------------------------------------------
-
-%  \begin{itemize}
- %   \item Se ha definido el color \textcolor{unamblue}{unamblue}
-  %  \item Se ha definido el color \textcolor{unamgold}{unamgold}
-  %\end{itemize}
 
 %\blfootnote{Se puede usar blfootnote para referencias sin número.}
 
-%\end{frame}
+
 
 
 

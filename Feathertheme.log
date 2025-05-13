@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.4)  11 MAY 2025 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.4)  12 MAY 2025 02:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,7 +1155,7 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
  (./Feathertheme.nav)
-<Feathergraphics/circle_logo.png, id=55, 362.153pt x 401.5pt>
+<Feathergraphics/circle_logo.png, id=53, 362.153pt x 401.5pt>
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
 Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
@@ -1192,12 +1192,12 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 115.
-<Feathergraphics/unam.pdf, id=79, 71.13194pt x 71.13194pt>
+<Feathergraphics/unam.pdf, id=75, 71.13194pt x 71.13194pt>
 File: Feathergraphics/unam.pdf Graphic file (type pdf)
 <use Feathergraphics/unam.pdf>
 Package pdftex.def Info: Feathergraphics/unam.pdf  used on input line 115.
 (pdftex.def)             Requested size: 113.81076pt x 170.71614pt.
-<logofac.png, id=80, 449.68pt x 513.92pt>
+<logofac.png, id=76, 449.68pt x 513.92pt>
 File: logofac.png Graphic file (type png)
 <use logofac.png>
 Package pdftex.def Info: logofac.png  used on input line 115.
@@ -1208,16 +1208,16 @@ Package pdftex.def Info: logofac.png  used on input line 115.
 > <./logofac.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 22
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 17
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 223.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 171.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 22
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 17
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -1225,217 +1225,162 @@ Missing character: There is no ; in font nullfont!
  <./Feathergraphics/circle_logo.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 22
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 17
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [3
 
 ]
-<cometa-e1561938278988.jpg, id=194, 803.0pt x 401.5pt>
-File: cometa-e1561938278988.jpg Graphic file (type jpg)
-<use cometa-e1561938278988.jpg>
-Package pdftex.def Info: cometa-e1561938278988.jpg  used on input line 223.
-(pdftex.def)             Requested size: 199.1693pt x 99.58444pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 22
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 17
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [4
 
- <./cometa-e1561938278988.jpg>]
+]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 25
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 25
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [5
 
 ]
+<lago.jpeg, id=252, 1606.0pt x 1204.5pt>
+File: lago.jpeg Graphic file (type jpg)
+<use lago.jpeg>
+Package pdftex.def Info: lago.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
+<mar.jpeg, id=253, 2055.68pt x 1542.76375pt>
+File: mar.jpeg Graphic file (type jpg)
+<use mar.jpeg>
+Package pdftex.def Info: mar.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 87.63496pt x 65.74902pt.
+<lodo.jpeg, id=254, 2055.68pt x 1542.76375pt>
+File: lodo.jpeg Graphic file (type jpg)
+<use lodo.jpeg>
+Package pdftex.def Info: lodo.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 87.60834pt x 62.59457pt.
+<ice.png, id=255, 1038.88126pt x 638.385pt>
+File: ice.png Graphic file (type png)
+<use ice.png>
+Package pdftex.def Info: ice.png  used on input line 353.
+(pdftex.def)             Requested size: 87.63002pt x 62.59538pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 25
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [6
 
-]
+ <./lago.jpeg> <./mar.jpeg> <./lodo.jpeg> <./ice.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
-Missing character: There is no ; in font nullfont!
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [7
 
 ]
-<lago.jpeg, id=347, 1606.0pt x 1204.5pt>
-File: lago.jpeg Graphic file (type jpg)
-<use lago.jpeg>
-Package pdftex.def Info: lago.jpeg  used on input line 435.
-(pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
-<mar.jpeg, id=348, 2055.68pt x 1542.76375pt>
-File: mar.jpeg Graphic file (type jpg)
-<use mar.jpeg>
-Package pdftex.def Info: mar.jpeg  used on input line 435.
-(pdftex.def)             Requested size: 87.63496pt x 65.74902pt.
-<lodo.jpeg, id=349, 2055.68pt x 1542.76375pt>
-File: lodo.jpeg Graphic file (type jpg)
-<use lodo.jpeg>
-Package pdftex.def Info: lodo.jpeg  used on input line 435.
-(pdftex.def)             Requested size: 87.60834pt x 62.59457pt.
-<ice.png, id=350, 1038.88126pt x 638.385pt>
-File: ice.png Graphic file (type png)
-<use ice.png>
-Package pdftex.def Info: ice.png  used on input line 435.
-(pdftex.def)             Requested size: 87.63002pt x 62.59538pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [8
 
- <./lago.jpeg> <./mar.jpeg> <./lodo.jpeg> <./ice.png>]
+]
+<pen1.png, id=334, 389.455pt x 388.45125pt>
+File: pen1.png Graphic file (type png)
+<use pen1.png>
+Package pdftex.def Info: pen1.png  used on input line 353.
+(pdftex.def)             Requested size: 119.49968pt x 62.59209pt.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 353.
+<pen2.png, id=335, 339.2675pt x 340.27126pt>
+File: pen2.png Graphic file (type png)
+<use pen2.png>
+Package pdftex.def Info: pen2.png  used on input line 353.
+(pdftex.def)             Requested size: 119.5012pt x 62.59093pt.
+<cen1.jpeg, id=336, 37.00224pt x 27.75168pt>
+File: cen1.jpeg Graphic file (type jpg)
+<use cen1.jpeg>
+Package pdftex.def Info: cen1.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 119.5094pt x 62.59944pt.
+<cen2.jpeg, id=337, 1397.22pt x 1397.22pt>
+File: cen2.jpeg Graphic file (type jpg)
+<use cen2.jpeg>
+Package pdftex.def Info: cen2.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 119.49767pt x 62.59502pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [9
 
-]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[10
-
-]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[11
-
-]
-<pen1.png, id=462, 389.455pt x 388.45125pt>
-File: pen1.png Graphic file (type png)
-<use pen1.png>
-Package pdftex.def Info: pen1.png  used on input line 435.
-(pdftex.def)             Requested size: 119.49968pt x 62.59209pt.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 435.
-<pen2.png, id=463, 339.2675pt x 340.27126pt>
-File: pen2.png Graphic file (type png)
-<use pen2.png>
-Package pdftex.def Info: pen2.png  used on input line 435.
-(pdftex.def)             Requested size: 119.5012pt x 62.59093pt.
-<cen1.jpeg, id=464, 37.00224pt x 27.75168pt>
-File: cen1.jpeg Graphic file (type jpg)
-<use cen1.jpeg>
-Package pdftex.def Info: cen1.jpeg  used on input line 435.
-(pdftex.def)             Requested size: 119.5094pt x 62.59944pt.
-<cen2.jpeg, id=465, 1397.22pt x 1397.22pt>
-File: cen2.jpeg Graphic file (type jpg)
-<use cen2.jpeg>
-Package pdftex.def Info: cen2.jpeg  used on input line 435.
-(pdftex.def)             Requested size: 119.49767pt x 62.59502pt.
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[12
-
  <./pen1.png> <./pen2.png> <./cen1.jpeg> <./cen2.jpeg>]
-<Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png, id=497, 187.70125
+<Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png, id=367, 187.70125
 pt x 161.60374pt>
 File: Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png Graphic file 
 (type png)
 <use Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png>
 Package pdftex.def Info: Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 P
-M.png  used on input line 435.
-(pdftex.def)             Requested size: 79.66649pt x 68.59067pt.
-<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png, id=498, 187.70125
+M.png  used on input line 353.
+(pdftex.def)             Requested size: 71.69934pt x 61.73062pt.
+<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png, id=368, 187.70125
 pt x 161.60374pt>
 File: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png Graphic file 
 (type png)
 <use Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 PM.png>
 Package pdftex.def Info: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.32 P
-M.png  used on input line 435.
-(pdftex.def)             Requested size: 79.66649pt x 68.59067pt.
-<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png, id=499, 187.70125
+M.png  used on input line 353.
+(pdftex.def)             Requested size: 71.69934pt x 61.73062pt.
+<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png, id=369, 187.70125
 pt x 161.60374pt>
 File: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png Graphic file 
 (type png)
 <use Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 PM.png>
 Package pdftex.def Info: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.17 P
-M.png  used on input line 435.
-(pdftex.def)             Requested size: 79.66649pt x 68.59067pt.
-<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png, id=500, 187.70125
+M.png  used on input line 353.
+(pdftex.def)             Requested size: 71.69934pt x 61.73062pt.
+<Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png, id=370, 187.70125
 pt x 161.60374pt>
 File: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png Graphic file 
 (type png)
 <use Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 PM.png>
 Package pdftex.def Info: Frustrulespictures/Screen Shot 2023-07-02 at 8.25.43 P
-M.png  used on input line 435.
-(pdftex.def)             Requested size: 79.66649pt x 68.59067pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 435.
-
-
-LaTeX Warning: Citation `aguirre2018diatomDNAViolet' on page 13 undefined on in
-put line 435.
-
-
-LaTeX Warning: Citation `aguirre2018diatomDNAViolet' on page 13 undefined on in
-put line 435.
-
-
-Overfull \vbox (4.86191pt too high) detected at line 435
- []
-
+M.png  used on input line 353.
+(pdftex.def)             Requested size: 71.69934pt x 61.73062pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
 Missing character: There is no ; in font nullfont!
-[13
+[10
 
  <./Frustrulespictures/Screen Shot 2023-07-02 at 8.24.59 PM.png> <./Frustrulesp
 ictures/Screen Shot 2023-07-02 at 8.25.32 PM.png> <./Frustrulespictures/Screen 
@@ -1443,1127 +1388,927 @@ Shot 2023-07-02 at 8.25.17 PM.png> <./Frustrulespictures/Screen Shot 2023-07-02
  at 8.25.43 PM.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 43
-5.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 35
+3.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+[11
+
+]
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 36
+8.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+<Microscopeinvertedtrain.png, id=459, 628.3475pt x 507.8975pt>
+File: Microscopeinvertedtrain.png Graphic file (type png)
+<use Microscopeinvertedtrain.png>
+Package pdftex.def Info: Microscopeinvertedtrain.png  used on input line 368.
+(pdftex.def)             Requested size: 188.50569pt x 152.37042pt.
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 36
+8.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+Missing character: There is no ; in font nullfont!
+[12
+
+ <./Microscopeinvertedtrain.png>]
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+Missing character: There is no ; in font nullfont!
+[13
+
+]
+<foton2.png, id=545, 431.36156pt x 266.49562pt>
+File: foton2.png Graphic file (type png)
+<use foton2.png>
+Package pdftex.def Info: foton2.png  used on input line 519.
+(pdftex.def)             Requested size: 194.1109pt x 119.92192pt.
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [14
 
-]
+ <./foton2.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 44
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
 9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
-Missing character: There is no ; in font nullfont!
-<Microscopeinvertedtrain.png, id=596, 628.3475pt x 507.8975pt>
-File: Microscopeinvertedtrain.png Graphic file (type png)
-<use Microscopeinvertedtrain.png>
-Package pdftex.def Info: Microscopeinvertedtrain.png  used on input line 449.
-(pdftex.def)             Requested size: 188.50569pt x 152.37042pt.
-
-LaTeX Warning: Citation `Fester_Davidson_Abramowitz' on page 15 undefined on in
-put line 449.
-
-
-LaTeX Warning: Citation `Fester_Davidson_Abramowitz' on page 15 undefined on in
-put line 449.
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 44
-9.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [15
 
- <./Microscopeinvertedtrain.png>]
+]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
-Missing character: There is no ; in font nullfont!
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [16
 
 ]
-<foton2.png, id=688, 431.36156pt x 266.49562pt>
-File: foton2.png Graphic file (type png)
-<use foton2.png>
-Package pdftex.def Info: foton2.png  used on input line 593.
-(pdftex.def)             Requested size: 194.1109pt x 119.92192pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 593.
+<beadrayoptics2.png, id=626, 1257.69875pt x 841.1425pt>
+File: beadrayoptics2.png Graphic file (type png)
+<use beadrayoptics2.png>
+Package pdftex.def Info: beadrayoptics2.png  used on input line 519.
+(pdftex.def)             Requested size: 201.2359pt x 134.58554pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [17
 
- <./foton2.png>]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[18
-
-]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[19
-
-]
-<beadrayoptics2.png, id=777, 1257.69875pt x 841.1425pt>
-File: beadrayoptics2.png Graphic file (type png)
-<use beadrayoptics2.png>
-Package pdftex.def Info: beadrayoptics2.png  used on input line 593.
-(pdftex.def)             Requested size: 201.2359pt x 134.58554pt.
-
-
-LaTeX Warning: Citation `jones2015optical' on page 20 undefined on input line 5
-93.
-
-
-LaTeX Warning: Citation `jones2015optical' on page 20 undefined on input line 5
-93.
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[20
-
  <./beadrayoptics2.png>]
-<Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png, id=805, 59
+<Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png, id=653, 59
 7.73312pt x 845.40843pt>
 File: Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png Graphi
 c file (type png)
 <use Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png>
 Package pdftex.def Info: Imagenes teoria/Optical tweezer diagrams/finallyoptica
-ltweezer.png  used on input line 593.
+ltweezer.png  used on input line 519.
 (pdftex.def)             Requested size: 200.10307pt x 170.67694pt.
-
-Overfull \vbox (4.86188pt too high) detected at line 593
- []
-
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
 Missing character: There is no ; in font nullfont!
-[21
+[18
 
  <./Imagenes teoria/Optical tweezer diagrams/finallyopticaltweezer.png>]
 
-LaTeX Warning: Reference `bead_optics' on page 22 undefined on input line 593.
+LaTeX Warning: Reference `bead_optics' on page 19 undefined on input line 519.
 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
-3.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+Missing character: There is no ; in font nullfont!
+[19
+
+]
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+[20
+
+]
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+[21
+
+]
+<Screenshot 2025-03-05 004832.png, id=762, 504.38437pt x 374.90062pt>
+File: Screenshot 2025-03-05 004832.png Graphic file (type png)
+<use Screenshot 2025-03-05 004832.png>
+Package pdftex.def Info: Screenshot 2025-03-05 004832.png  used on input line 5
+19.
+(pdftex.def)             Requested size: 176.53717pt x 131.21718pt.
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 51
+9.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
 Missing character: There is no ; in font nullfont!
 [22
 
-]
+ <./Screenshot 2025-03-05 004832.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 57
 3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[23
-
-]
+<microfluidicinaction.png, id=808, 420.57124pt x 280.04625pt>
+File: microfluidicinaction.png Graphic file (type png)
+<use microfluidicinaction.png>
+Package pdftex.def Info: microfluidicinaction.png  used on input line 573.
+(pdftex.def)             Requested size: 147.20213pt x 98.01764pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 57
+3.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+Missing character: There is no ; in font nullfont!
+[23
+
+ <./microfluidicinaction.png>]
+<Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at 5.3
+4.18 PM.png, id=836, 484.81125pt x 395.4775pt>
+File: Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 a
+t 5.34.18 PM.png Graphic file (type png)
+<use Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at
+ 5.34.18 PM.png>
+Package pdftex.def Info: Diatomsexperimentalmethods/Microfluidics designs/Scree
+n Shot 2024-01-17 at 5.34.18 PM.png  used on input line 573.
+(pdftex.def)             Requested size: 193.92105pt x 133.15025pt.
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 57
 3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [24
 
-]
-<Screenshot 2025-03-05 004832.png, id=922, 504.38437pt x 374.90062pt>
-File: Screenshot 2025-03-05 004832.png Graphic file (type png)
-<use Screenshot 2025-03-05 004832.png>
-Package pdftex.def Info: Screenshot 2025-03-05 004832.png  used on input line 5
-93.
-(pdftex.def)             Requested size: 176.53717pt x 131.21718pt.
+ <./Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at 
+5.34.18 PM.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 57
 3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 [25
 
- <./Screenshot 2025-03-05 004832.png>]
+]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 57
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
-Missing character: There is no ; in font nullfont!
-<microfluidicinaction.png, id=973, 420.57124pt x 280.04625pt>
-File: microfluidicinaction.png Graphic file (type png)
-<use microfluidicinaction.png>
-Package pdftex.def Info: microfluidicinaction.png  used on input line 651.
-(pdftex.def)             Requested size: 147.20213pt x 98.01764pt.
-
-LaTeX Warning: Citation `Wanucha_2012' on page 26 undefined on input line 651.
-
-
-LaTeX Warning: Citation `Wanucha_2012' on page 26 undefined on input line 651.
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [26
 
- <./microfluidicinaction.png>]
-<Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at 5.3
-4.18 PM.png, id=1003, 484.81125pt x 395.4775pt>
-File: Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 a
-t 5.34.18 PM.png Graphic file (type png)
-<use Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at
- 5.34.18 PM.png>
-Package pdftex.def Info: Diatomsexperimentalmethods/Microfluidics designs/Scree
-n Shot 2024-01-17 at 5.34.18 PM.png  used on input line 651.
-(pdftex.def)             Requested size: 193.92105pt x 133.15025pt.
-
-
-LaTeX Warning: Citation `niculescu2022review' on page 27 undefined on input lin
-e 651.
-
-
-LaTeX Warning: Citation `niculescu2022review' on page 27 undefined on input lin
-e 651.
-
+]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 58
+5.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+<Newplots_microfluidics_results/setup3.png, id=946, 1104.37593pt x 595.47469pt>
+
+File: Newplots_microfluidics_results/setup3.png Graphic file (type png)
+<use Newplots_microfluidics_results/setup3.png>
+Package pdftex.def Info: Newplots_microfluidics_results/setup3.png  used on inp
+ut line 585.
+(pdftex.def)             Requested size: 298.18549pt x 160.7803pt.
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 58
+5.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [27
 
- <./Diatomsexperimentalmethods/Microfluidics designs/Screen Shot 2024-01-17 at 
-5.34.18 PM.png>]
+ <./Newplots_microfluidics_results/setup3.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
+0.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
+Missing character: There is no ; in font nullfont!
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 59
+0.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [28
 
 ]
-
-LaTeX Warning: Citation `wang2011enhancedmicroandopti' on page 29 undefined on 
-input line 651.
-
-
-LaTeX Warning: Citation `paegel2003microfluidicDNA' on page 29 undefined on inp
-ut line 651.
-
-
-LaTeX Warning: Citation `niculescu2022review' on page 29 undefined on input lin
-e 651.
-
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
 Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
+8.
+(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
+Missing character: There is no ; in font nullfont!
+File: Feathergraphics/circle_logo.png Graphic file (type png)
+<use Feathergraphics/circle_logo.png>
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
+8.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
 [29
 
 ]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
-1.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[30
-
-]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 66
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-<Newplots_microfluidics_results/setup3.png, id=1147, 1104.37593pt x 595.47469pt
->
-File: Newplots_microfluidics_results/setup3.png Graphic file (type png)
-<use Newplots_microfluidics_results/setup3.png>
-Package pdftex.def Info: Newplots_microfluidics_results/setup3.png  used on inp
-ut line 663.
-(pdftex.def)             Requested size: 298.18549pt x 160.7803pt.
-
-Overfull \vbox (4.46088pt too high) detected at line 663
- []
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 66
-3.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[31
-
- <./Newplots_microfluidics_results/setup3.png>]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 67
-6.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-<Diatomsexperimentalmethods/Backscateringpattern/backscattered.jpeg, id=1200, 8
-03.0pt x 602.25pt>
-File: Diatomsexperimentalmethods/Backscateringpattern/backscattered.jpeg Graphi
-c file (type jpg)
-<use Diatomsexperimentalmethods/Backscateringpattern/backscattered.jpeg>
-Package pdftex.def Info: Diatomsexperimentalmethods/Backscateringpattern/backsc
-attered.jpeg  used on input line 676.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
-<Diatomsexperimentalmethods/Backscateringpattern/inmicrofluidics.jpeg, id=1201,
- 803.0pt x 602.25pt>
-File: Diatomsexperimentalmethods/Backscateringpattern/inmicrofluidics.jpeg Grap
-hic file (type jpg)
-<use Diatomsexperimentalmethods/Backscateringpattern/inmicrofluidics.jpeg>
-Package pdftex.def Info: Diatomsexperimentalmethods/Backscateringpattern/inmicr
-ofluidics.jpeg  used on input line 676.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 67
-6.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[32
-
- <./Diatomsexperimentalmethods/Backscateringpattern/backscattered.jpeg> <./Diat
-omsexperimentalmethods/Backscateringpattern/inmicrofluidics.jpeg>]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 68
-0.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 68
-0.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[33
-
-]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 74
-8.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 74
-8.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[34
-
-]
-<Diatomsexperimentalmethods/Nitzchia sp1.jpeg, id=1327, 803.0pt x 602.25pt>
+<Diatomsexperimentalmethods/Nitzchia sp1.jpeg, id=1063, 803.0pt x 602.25pt>
 File: Diatomsexperimentalmethods/Nitzchia sp1.jpeg Graphic file (type jpg)
 <use Diatomsexperimentalmethods/Nitzchia sp1.jpeg>
 Package pdftex.def Info: Diatomsexperimentalmethods/Nitzchia sp1.jpeg  used on 
-input line 748.
+input line 658.
 (pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
-<Diatomsexperimentalmethods/Phaeodactylum t.jpgss.jpg, id=1328, 803.0pt x 602.2
+<Diatomsexperimentalmethods/Phaeodactylum t.jpgss.jpg, id=1064, 803.0pt x 602.2
 5pt>
 File: Diatomsexperimentalmethods/Phaeodactylum t.jpgss.jpg Graphic file (type j
 pg)
 <use Diatomsexperimentalmethods/Phaeodactylum t.jpgss.jpg>
 Package pdftex.def Info: Diatomsexperimentalmethods/Phaeodactylum t.jpgss.jpg  
-used on input line 748.
+used on input line 658.
 (pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
-<Diatomsexperimentalmethods/thala2.jpeg, id=1329, 803.0pt x 602.25pt>
+<Diatomsexperimentalmethods/thala2.jpeg, id=1065, 803.0pt x 602.25pt>
 File: Diatomsexperimentalmethods/thala2.jpeg Graphic file (type jpg)
 <use Diatomsexperimentalmethods/thala2.jpeg>
 Package pdftex.def Info: Diatomsexperimentalmethods/thala2.jpeg  used on input 
-line 748.
+line 658.
 (pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
-<Diatomsexperimentalmethods/gea4al.jpeg, id=1330, 803.0pt x 602.25pt>
+<Diatomsexperimentalmethods/gea4al.jpeg, id=1066, 803.0pt x 602.25pt>
 File: Diatomsexperimentalmethods/gea4al.jpeg Graphic file (type jpg)
 <use Diatomsexperimentalmethods/gea4al.jpeg>
 Package pdftex.def Info: Diatomsexperimentalmethods/gea4al.jpeg  used on input 
-line 748.
+line 658.
 (pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
-<Diatomsexperimentalmethods/ray.jpeg, id=1331, 803.0pt x 602.25pt>
+<Diatomsexperimentalmethods/ray.jpeg, id=1067, 803.0pt x 602.25pt>
 File: Diatomsexperimentalmethods/ray.jpeg Graphic file (type jpg)
 <use Diatomsexperimentalmethods/ray.jpeg>
 Package pdftex.def Info: Diatomsexperimentalmethods/ray.jpeg  used on input lin
-e 748.
+e 658.
 (pdftex.def)             Requested size: 87.63496pt x 65.72389pt.
 
-Overfull \vbox (24.97841pt too high) detected at line 748
+Overfull \vbox (11.42842pt too high) detected at line 658
  []
 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 74
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
 8.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[35
+[30
 
  <./Diatomsexperimentalmethods/Nitzchia sp1.jpeg> <./Diatomsexperimentalmethods
 /Phaeodactylum t.jpgss.jpg> <./Diatomsexperimentalmethods/thala2.jpeg> <./Diato
 msexperimentalmethods/gea4al.jpeg> <./Diatomsexperimentalmethods/ray.jpeg>]
-<Imagenes teoria/cuci.png, id=1359, 525.46312pt x 140.02313pt>
+<Imagenes teoria/cuci.png, id=1093, 525.46312pt x 140.02313pt>
 File: Imagenes teoria/cuci.png Graphic file (type png)
 <use Imagenes teoria/cuci.png>
-Package pdftex.def Info: Imagenes teoria/cuci.png  used on input line 748.
+Package pdftex.def Info: Imagenes teoria/cuci.png  used on input line 658.
 (pdftex.def)             Requested size: 298.20853pt x 84.01451pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 74
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
 8.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[36
+[31
 
  <./Imagenes teoria/cuci.png>]
 <Diatomsexperimentalmethods/Samplepreparation/Screen Shot 2024-01-18 at 12.50.2
-0 PM.png, id=1388, 776.9025pt x 286.06876pt>
+0 PM.png, id=1121, 776.9025pt x 286.06876pt>
 File: Diatomsexperimentalmethods/Samplepreparation/Screen Shot 2024-01-18 at 12
 .50.20 PM.png Graphic file (type png)
 <use Diatomsexperimentalmethods/Samplepreparation/Screen Shot 2024-01-18 at 12.
 50.20 PM.png>
 Package pdftex.def Info: Diatomsexperimentalmethods/Samplepreparation/Screen Sh
-ot 2024-01-18 at 12.50.20 PM.png  used on input line 748.
+ot 2024-01-18 at 12.50.20 PM.png  used on input line 658.
 (pdftex.def)             Requested size: 271.91994pt x 100.12556pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 74
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 65
 8.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[37
+[32
 
  <./Diatomsexperimentalmethods/Samplepreparation/Screen Shot 2024-01-18 at 12.5
 0.20 PM.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 81
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 71
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-<427particles/image732.png, id=1439, 559.08875pt x 419.5675pt>
+<427particles/image732.png, id=1167, 559.08875pt x 419.5675pt>
 File: 427particles/image732.png Graphic file (type png)
 <use 427particles/image732.png>
-Package pdftex.def Info: 427particles/image732.png  used on input line 814.
+Package pdftex.def Info: 427particles/image732.png  used on input line 712.
 (pdftex.def)             Requested size: 79.66649pt x 59.78258pt.
-<427particles/2.png, id=1440, 559.08875pt x 419.5675pt>
+<427particles/2.png, id=1168, 559.08875pt x 419.5675pt>
 File: 427particles/2.png Graphic file (type png)
 <use 427particles/2.png>
-Package pdftex.def Info: 427particles/2.png  used on input line 814.
+Package pdftex.def Info: 427particles/2.png  used on input line 712.
 (pdftex.def)             Requested size: 79.66649pt x 59.78258pt.
-<427particles/i.png, id=1441, 559.08875pt x 419.5675pt>
+<427particles/i.png, id=1169, 559.08875pt x 419.5675pt>
 File: 427particles/i.png Graphic file (type png)
 <use 427particles/i.png>
-Package pdftex.def Info: 427particles/i.png  used on input line 814.
+Package pdftex.def Info: 427particles/i.png  used on input line 712.
 (pdftex.def)             Requested size: 79.66649pt x 59.78258pt.
-<427particles/4.png, id=1442, 559.33969pt x 419.31656pt>
+<427particles/4.png, id=1170, 559.33969pt x 419.31656pt>
 File: 427particles/4.png Graphic file (type png)
 <use 427particles/4.png>
-Package pdftex.def Info: 427particles/4.png  used on input line 814.
+Package pdftex.def Info: 427particles/4.png  used on input line 712.
 (pdftex.def)             Requested size: 79.66649pt x 59.72124pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 81
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 71
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[38
+[33
 
  <./427particles/image732.png> <./427particles/2.png> <./427particles/i.png> <.
 /427particles/4.png>]
-Overfull \vbox (14.34985pt too high) detected at line 814
+Overfull \vbox (11.34987pt too high) detected at line 712
  []
 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 81
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 71
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[39
-
-]
-Overfull \vbox (14.34985pt too high) detected at line 814
- []
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 81
-4.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[40
+[34
 
 <<video2.mp4>>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 88
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 78
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-<particles2.png, id=1570, 309.155pt x 374.39874pt>
+<particles2.png, id=1265, 309.155pt x 374.39874pt>
 File: particles2.png Graphic file (type png)
 <use particles2.png>
-Package pdftex.def Info: particles2.png  used on input line 884.
+Package pdftex.def Info: particles2.png  used on input line 782.
 (pdftex.def)             Requested size: 79.66608pt x 65.44078pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:a}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:a}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
-<particles7.png, id=1571, 305.14pt x 394.47375pt>
+<particles7.png, id=1266, 305.14pt x 394.47375pt>
 File: particles7.png Graphic file (type png)
 <use particles7.png>
-Package pdftex.def Info: particles7.png  used on input line 884.
+Package pdftex.def Info: particles7.png  used on input line 782.
 (pdftex.def)             Requested size: 79.6651pt x 65.44049pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:b}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:b}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
-<particlesnow.png, id=1572, 629.35126pt x 502.87875pt>
+<particlesnow.png, id=1267, 629.35126pt x 502.87875pt>
 File: particlesnow.png Graphic file (type png)
 <use particlesnow.png>
-Package pdftex.def Info: particlesnow.png  used on input line 884.
+Package pdftex.def Info: particlesnow.png  used on input line 782.
 (pdftex.def)             Requested size: 79.66649pt x 63.65004pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:c}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:c}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
-<Particles3.png, id=1573, 464.73625pt x 369.38pt>
+<Particles3.png, id=1268, 464.73625pt x 369.38pt>
 File: Particles3.png Graphic file (type png)
 <use Particles3.png>
-Package pdftex.def Info: Particles3.png  used on input line 884.
+Package pdftex.def Info: Particles3.png  used on input line 782.
 (pdftex.def)             Requested size: 79.66649pt x 63.31793pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:d}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:d}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{poresfrustrul
 es}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.884 \end{frame}
+l.782 \end{frame}
                  
-Overfull \vbox (6.2714pt too high) detected at line 884
- []
-
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 88
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 78
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
 Missing character: There is no ; in font nullfont!
-[41
+[35
 
  <./Particles2.png> <./particles7.png> <./particlesnow.png> <./particles3.png>]
-<Imagenes teoria/opticution0_edited.jpeg, id=1606, 803.0pt x 602.25pt>
+<Imagenes teoria/opticution0_edited.jpeg, id=1298, 803.0pt x 602.25pt>
 File: Imagenes teoria/opticution0_edited.jpeg Graphic file (type jpg)
 <use Imagenes teoria/opticution0_edited.jpeg>
 Package pdftex.def Info: Imagenes teoria/opticution0_edited.jpeg  used on input
- line 884.
+ line 782.
 (pdftex.def)             Requested size: 97.59404pt x 73.19502pt.
-<Imagenes teoria/opticution1_edited.jpeg, id=1607, 803.0pt x 602.25pt>
+<Imagenes teoria/opticution1_edited.jpeg, id=1299, 803.0pt x 602.25pt>
 File: Imagenes teoria/opticution1_edited.jpeg Graphic file (type jpg)
 <use Imagenes teoria/opticution1_edited.jpeg>
 Package pdftex.def Info: Imagenes teoria/opticution1_edited.jpeg  used on input
- line 884.
+ line 782.
 (pdftex.def)             Requested size: 97.59404pt x 73.19502pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 88
-4.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 78
+2.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[42
+[36
 
  <./Imagenes teoria/opticution0_edited.jpeg> <./Imagenes teoria/opticution1_edi
 ted.jpeg>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-<ResultadosAlgea1/11.png, id=1656, 602.25pt x 451.6875pt>
+<ResultadosAlgea1/11.png, id=1345, 602.25pt x 451.6875pt>
 File: ResultadosAlgea1/11.png Graphic file (type png)
 <use ResultadosAlgea1/11.png>
-Package pdftex.def Info: ResultadosAlgea1/11.png  used on input line 1059.
+Package pdftex.def Info: ResultadosAlgea1/11.png  used on input line 931.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:a}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
+l.931 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:a}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
-<ResultadosAlgea1/levantando.png, id=1657, 602.25pt x 451.6875pt>
+l.931 \end{frame}
+                 
+<ResultadosAlgea1/levantando.png, id=1346, 602.25pt x 451.6875pt>
 File: ResultadosAlgea1/levantando.png Graphic file (type png)
 <use ResultadosAlgea1/levantando.png>
-Package pdftex.def Info: ResultadosAlgea1/levantando.png  used on input line 10
-59.
+Package pdftex.def Info: ResultadosAlgea1/levantando.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:b}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
+l.931 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:b}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
-<ResultadosAlgea1/3.png, id=1658, 602.25pt x 451.6875pt>
+l.931 \end{frame}
+                 
+<ResultadosAlgea1/3.png, id=1347, 602.25pt x 451.6875pt>
 File: ResultadosAlgea1/3.png Graphic file (type png)
 <use ResultadosAlgea1/3.png>
-Package pdftex.def Info: ResultadosAlgea1/3.png  used on input line 1059.
+Package pdftex.def Info: ResultadosAlgea1/3.png  used on input line 931.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:c}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
+l.931 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:c}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
-<ResultadosAlgea1/1.png, id=1659, 602.25pt x 451.6875pt>
+l.931 \end{frame}
+                 
+<ResultadosAlgea1/1.png, id=1348, 602.25pt x 451.6875pt>
 File: ResultadosAlgea1/1.png Graphic file (type png)
 <use ResultadosAlgea1/1.png>
-Package pdftex.def Info: ResultadosAlgea1/1.png  used on input line 1059.
+Package pdftex.def Info: ResultadosAlgea1/1.png  used on input line 931.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:d}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
+l.931 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:d}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
+l.931 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{poresfrustrul
 es}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \end{frame}
-                  
-Overfull \vbox (11.87025pt too high) detected at line 1059
+l.931 \end{frame}
+                 
+Overfull \vbox (0.37027pt too high) detected at line 931
  []
 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[43
+[37
 
  <./ResultadosAlgea1/11.png> <./ResultadosAlgea1/levantando.png> <./ResultadosA
 lgea1/3.png> <./ResultadosAlgea1/1.png>]
-<Results/Resultadosalgea2/firstwatter secondalgea.png, id=1692, 602.25pt x 451.
+<Results/Resultadosalgea2/firstwatter secondalgea.png, id=1379, 602.25pt x 451.
 6875pt>
 File: Results/Resultadosalgea2/firstwatter secondalgea.png Graphic file (type p
 ng)
 <use Results/Resultadosalgea2/firstwatter secondalgea.png>
 Package pdftex.def Info: Results/Resultadosalgea2/firstwatter secondalgea.png  
-used on input line 1059.
+used on input line 931.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
-<Results/Resultadosalgea2/secondalgea2water.png, id=1693, 602.25pt x 451.6875pt
+<Results/Resultadosalgea2/secondalgea2water.png, id=1380, 602.25pt x 451.6875pt
 >
 File: Results/Resultadosalgea2/secondalgea2water.png Graphic file (type png)
 <use Results/Resultadosalgea2/secondalgea2water.png>
 Package pdftex.def Info: Results/Resultadosalgea2/secondalgea2water.png  used o
-n input line 1059.
+n input line 931.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
-<Results/Resultadosalgea2/secondalgeawater3.png, id=1694, 602.25pt x 451.6875pt
+<Results/Resultadosalgea2/secondalgeawater3.png, id=1381, 602.25pt x 451.6875pt
 >
 File: Results/Resultadosalgea2/secondalgeawater3.png Graphic file (type png)
 <use Results/Resultadosalgea2/secondalgeawater3.png>
 Package pdftex.def Info: Results/Resultadosalgea2/secondalgeawater3.png  used o
-n input line 1059.
+n input line 931.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
-<Results/Resultadosalgea2/secondalgeawater4.png, id=1695, 602.25pt x 451.6875pt
+<Results/Resultadosalgea2/secondalgeawater4.png, id=1382, 602.25pt x 451.6875pt
 >
 File: Results/Resultadosalgea2/secondalgeawater4.png Graphic file (type png)
 <use Results/Resultadosalgea2/secondalgeawater4.png>
 Package pdftex.def Info: Results/Resultadosalgea2/secondalgeawater4.png  used o
-n input line 1059.
+n input line 931.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
 
-Overfull \vbox (11.87025pt too high) detected at line 1059
+Overfull \vbox (0.37027pt too high) detected at line 931
  []
 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[44
+[38
 
  <./Results/Resultadosalgea2/firstwatter secondalgea.png> <./Results/Resultados
 algea2/secondalgea2water.png> <./Results/Resultadosalgea2/secondalgeawater3.png
 > <./Results/Resultadosalgea2/secondalgeawater4.png>]
-<Results/Resultadosalgea2/oil1.png, id=1727, 602.25pt x 451.6875pt>
-File: Results/Resultadosalgea2/oil1.png Graphic file (type png)
-<use Results/Resultadosalgea2/oil1.png>
-Package pdftex.def Info: Results/Resultadosalgea2/oil1.png  used on input line 
-1059.
-(pdftex.def)             Requested size: 117.11404pt x 87.83403pt.
-<Results/Resultadosalgea2/oilt2.png, id=1728, 602.25pt x 451.6875pt>
-File: Results/Resultadosalgea2/oilt2.png Graphic file (type png)
-<use Results/Resultadosalgea2/oilt2.png>
-Package pdftex.def Info: Results/Resultadosalgea2/oilt2.png  used on input line
- 1059.
-(pdftex.def)             Requested size: 117.11404pt x 87.83403pt.
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-
-Missing character: There is no ; in font nullfont!
-[45
-
- <./Results/Resultadosalgea2/oil1.png> <./Results/Resultadosalgea2/oilt2.png>]
-<Results/Fifth/pennate1water.png, id=1759, 794.2172pt x 595.47469pt>
+<Results/Fifth/pennate1water.png, id=1412, 794.2172pt x 595.47469pt>
 File: Results/Fifth/pennate1water.png Graphic file (type png)
 <use Results/Fifth/pennate1water.png>
-Package pdftex.def Info: Results/Fifth/pennate1water.png  used on input line 10
-59.
+Package pdftex.def Info: Results/Fifth/pennate1water.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 119.50279pt x 89.59901pt.
-<Results/Fifth/pennatewater2.png, id=1760, 794.2172pt x 594.72188pt>
+<Results/Fifth/pennatewater2.png, id=1413, 794.2172pt x 594.72188pt>
 File: Results/Fifth/pennatewater2.png Graphic file (type png)
 <use Results/Fifth/pennatewater2.png>
-Package pdftex.def Info: Results/Fifth/pennatewater2.png  used on input line 10
-59.
+Package pdftex.def Info: Results/Fifth/pennatewater2.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 119.50279pt x 89.48575pt.
-<Results/Fifth/pennate3water.png, id=1761, 794.2172pt x 593.21625pt>
+<Results/Fifth/pennate3water.png, id=1414, 794.2172pt x 593.21625pt>
 File: Results/Fifth/pennate3water.png Graphic file (type png)
 <use Results/Fifth/pennate3water.png>
-Package pdftex.def Info: Results/Fifth/pennate3water.png  used on input line 10
-59.
+Package pdftex.def Info: Results/Fifth/pennate3water.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 119.50279pt x 89.2592pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[46
+[39
 
  <./Results/Fifth/pennate1water.png> <./Results/Fifth/pennatewater2.png> <./Res
 ults/Fifth/pennate3water.png>]
-<Results/Resultsforthalgae/falgae1_image2327.png, id=1792, 602.25pt x 451.6875p
+<Results/Resultsforthalgae/falgae1_image2327.png, id=1443, 602.25pt x 451.6875p
 t>
 File: Results/Resultsforthalgae/falgae1_image2327.png Graphic file (type png)
 <use Results/Resultsforthalgae/falgae1_image2327.png>
 Package pdftex.def Info: Results/Resultsforthalgae/falgae1_image2327.png  used 
-on input line 1059.
+on input line 931.
 (pdftex.def)             Requested size: 119.50279pt x 89.62599pt.
-<Results/Resultsforthalgae/falgae2.png, id=1793, 602.25pt x 451.6875pt>
+<Results/Resultsforthalgae/falgae2.png, id=1444, 602.25pt x 451.6875pt>
 File: Results/Resultsforthalgae/falgae2.png Graphic file (type png)
 <use Results/Resultsforthalgae/falgae2.png>
 Package pdftex.def Info: Results/Resultsforthalgae/falgae2.png  used on input l
-ine 1059.
+ine 931.
 (pdftex.def)             Requested size: 119.50279pt x 89.62599pt.
-<Results/Resultsforthalgae/falgae3.png, id=1794, 602.25pt x 451.6875pt>
+<Results/Resultsforthalgae/falgae3.png, id=1445, 602.25pt x 451.6875pt>
 File: Results/Resultsforthalgae/falgae3.png Graphic file (type png)
 <use Results/Resultsforthalgae/falgae3.png>
 Package pdftex.def Info: Results/Resultsforthalgae/falgae3.png  used on input l
-ine 1059.
+ine 931.
 (pdftex.def)             Requested size: 119.50279pt x 89.62599pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
-59.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 93
+1.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[47
+[40
 
  <./Results/Resultsforthalgae/falgae1_image2327.png> <./Results/Resultsforthalg
 ae/falgae2.png> <./Results/Resultsforthalgae/falgae3.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-33.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 97
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-<Results/Pseudonana water/wpseudona1.png, id=1846, 602.25pt x 451.6875pt>
+<Results/Pseudonana water/wpseudona1.png, id=1494, 602.25pt x 451.6875pt>
 File: Results/Pseudonana water/wpseudona1.png Graphic file (type png)
 <use Results/Pseudonana water/wpseudona1.png>
 Package pdftex.def Info: Results/Pseudonana water/wpseudona1.png  used on input
- line 1133.
+ line 973.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:a}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
+l.973 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:a}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
-<Results/Pseudonana water/wpseudonana2.png, id=1847, 602.25pt x 451.6875pt>
+l.973 \end{frame}
+                 
+<Results/Pseudonana water/wpseudonana2.png, id=1495, 602.25pt x 451.6875pt>
 File: Results/Pseudonana water/wpseudonana2.png Graphic file (type png)
 <use Results/Pseudonana water/wpseudonana2.png>
 Package pdftex.def Info: Results/Pseudonana water/wpseudonana2.png  used on inp
-ut line 1133.
+ut line 973.
 (pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:b}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
+l.973 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:b}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
-<Results/Pseudonana water/wpseudonana3.png, id=1848, 602.25pt x 451.6875pt>
+l.973 \end{frame}
+                 
+<Results/Pseudonana water/wpseudonana3.png, id=1496, 602.25pt x 451.6875pt>
 File: Results/Pseudonana water/wpseudonana3.png Graphic file (type png)
 <use Results/Pseudonana water/wpseudonana3.png>
 Package pdftex.def Info: Results/Pseudonana water/wpseudonana3.png  used on inp
-ut line 1133.
+ut line 973.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:c}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
+l.973 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:c}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
-<Results/Pseudonana water/wpseudonana4.png, id=1849, 602.25pt x 451.6875pt>
+l.973 \end{frame}
+                 
+<Results/Pseudonana water/wpseudonana4.png, id=1497, 602.25pt x 451.6875pt>
 File: Results/Pseudonana water/wpseudonana4.png Graphic file (type png)
 <use Results/Pseudonana water/wpseudonana4.png>
 Package pdftex.def Info: Results/Pseudonana water/wpseudonana4.png  used on inp
-ut line 1133.
+ut line 973.
 (pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig7:d}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
+l.973 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@fig7:d}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
+l.973 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{poresfrustrul
 es}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1133 \end{frame}
-                  
-Overfull \vbox (2.37025pt too high) detected at line 1133
- []
-
+l.973 \end{frame}
+                 
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-33.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 97
+3.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
+
 Missing character: There is no ; in font nullfont!
-[48
+[41
 
  <./Results/Pseudonana water/wpseudona1.png> <./Results/Pseudonana water/wpseud
 onana2.png> <./Results/Pseudonana water/wpseudonana3.png> <./Results/Pseudonana
  water/wpseudonana4.png>]
-<Results/ResultsOilpseudonana/op1.png, id=1881, 602.25pt x 451.6875pt>
-File: Results/ResultsOilpseudonana/op1.png Graphic file (type png)
-<use Results/ResultsOilpseudonana/op1.png>
-Package pdftex.def Info: Results/ResultsOilpseudonana/op1.png  used on input li
-ne 1133.
-(pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
-<Results/ResultsOilpseudonana/op2.png, id=1882, 602.25pt x 451.6875pt>
-File: Results/ResultsOilpseudonana/op2.png Graphic file (type png)
-<use Results/ResultsOilpseudonana/op2.png>
-Package pdftex.def Info: Results/ResultsOilpseudonana/op2.png  used on input li
-ne 1133.
-(pdftex.def)             Requested size: 79.66449pt x 65.44131pt.
-<Results/ResultsOilpseudonana/op3.png, id=1883, 602.25pt x 451.6875pt>
-File: Results/ResultsOilpseudonana/op3.png Graphic file (type png)
-<use Results/ResultsOilpseudonana/op3.png>
-Package pdftex.def Info: Results/ResultsOilpseudonana/op3.png  used on input li
-ne 1133.
-(pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
-<Results/ResultsOilpseudonana/op4.png, id=1884, 602.25pt x 451.6875pt>
-File: Results/ResultsOilpseudonana/op4.png Graphic file (type png)
-<use Results/ResultsOilpseudonana/op4.png>
-Package pdftex.def Info: Results/ResultsOilpseudonana/op4.png  used on input li
-ne 1133.
-(pdftex.def)             Requested size: 79.66649pt x 59.74837pt.
-
-Overfull \vbox (2.37025pt too high) detected at line 1133
- []
-
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-33.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[49
-
- <./Results/ResultsOilpseudonana/op1.png> <./Results/ResultsOilpseudonana/op2.p
-ng> <./Results/ResultsOilpseudonana/op3.png> <./Results/ResultsOilpseudonana/op
-4.png>]
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-93.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+09.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-<Newplots_microfluidics_results/Silica_particles.png, id=1939, 462.528pt x 346.
-896pt>
-File: Newplots_microfluidics_results/Silica_particles.png Graphic file (type pn
-g)
-<use Newplots_microfluidics_results/Silica_particles.png>
-Package pdftex.def Info: Newplots_microfluidics_results/Silica_particles.png  u
-sed on input line 1193.
-(pdftex.def)             Requested size: 185.42809pt x 139.07352pt.
-<Newplots_microfluidics_results/Thala.png, id=1940, 462.528pt x 346.896pt>
-File: Newplots_microfluidics_results/Thala.png Graphic file (type png)
-<use Newplots_microfluidics_results/Thala.png>
-Package pdftex.def Info: Newplots_microfluidics_results/Thala.png  used on inpu
-t line 1193.
-(pdftex.def)             Requested size: 185.42809pt x 139.07352pt.
-
-Overfull \vbox (11.40407pt too high) detected at line 1193
- []
-
-File: Feathergraphics/circle_logo.png Graphic file (type png)
-<use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-93.
-(pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
-Missing character: There is no ; in font nullfont!
-[50
-
- <./Newplots_microfluidics_results/Silica_particles.png> <./Newplots_microfluid
-ics_results/Thala.png>]
-<Newplots_microfluidics_results/Force_silica_particle.png, id=1975, 462.528pt x
+<Newplots_microfluidics_results/Force_silica_particle.png, id=1546, 462.528pt x
  346.896pt>
 File: Newplots_microfluidics_results/Force_silica_particle.png Graphic file (ty
 pe png)
 <use Newplots_microfluidics_results/Force_silica_particle.png>
 Package pdftex.def Info: Newplots_microfluidics_results/Force_silica_particle.p
-ng  used on input line 1193.
+ng  used on input line 1009.
 (pdftex.def)             Requested size: 185.42809pt x 139.07352pt.
-<Newplots_microfluidics_results/Force_Thalassiosira.png, id=1976, 462.528pt x 3
+<Newplots_microfluidics_results/Force_Thalassiosira.png, id=1547, 462.528pt x 3
 46.896pt>
 File: Newplots_microfluidics_results/Force_Thalassiosira.png Graphic file (type
  png)
 <use Newplots_microfluidics_results/Force_Thalassiosira.png>
 Package pdftex.def Info: Newplots_microfluidics_results/Force_Thalassiosira.png
-  used on input line 1193.
+  used on input line 1009.
 (pdftex.def)             Requested size: 185.42809pt x 139.07352pt.
-
-Overfull \vbox (1.90407pt too high) detected at line 1193
- []
-
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 11
-93.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+09.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 Missing character: There is no ; in font nullfont!
-[51
+[42
 
  <./Newplots_microfluidics_results/Force_silica_particle.png> <./Newplots_micro
 fluidics_results/Force_Thalassiosira.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 13
-31.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+93.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1331.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1093.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1093.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-331.
+093.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 13
-31.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+93.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[52
+[43
 
 ]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 13
-31.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+93.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[53
+[44
 
 ]
-<profile.png, id=2082, 752.8125pt x 290.08376pt>
+<profile.png, id=1651, 752.8125pt x 290.08376pt>
 File: profile.png Graphic file (type png)
 <use profile.png>
-Package pdftex.def Info: profile.png  used on input line 1331.
+Package pdftex.def Info: profile.png  used on input line 1093.
 (pdftex.def)             Requested size: 199.1693pt x 76.74788pt.
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 13
-31.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+93.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[54
+[45
 
  <./profile.png>]
 File: Feathergraphics/circle_logo.png Graphic file (type png)
 <use Feathergraphics/circle_logo.png>
-Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 13
-31.
+Package pdftex.def Info: Feathergraphics/circle_logo.png  used on input line 10
+93.
 (pdftex.def)             Requested size: 25.64984pt x 28.43256pt.
 
 Missing character: There is no ; in font nullfont!
-[55
+[46
 
 ]
 \tf@nav=\write7
@@ -2582,11 +2327,6 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Rerun to get object references right! @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
 (./Feathertheme.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -2603,14 +2343,14 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Feathertheme.out' has not changed.
-(rerunfilecheck)             Checksum: 35D41CD0A1AB1CBD39146C90FD795140;572.
+(rerunfilecheck)             Checksum: 6A21F3933D5619EFD838EC1CD9ED8BB0;575.
  ) 
 Here is how much of TeX's memory you used:
- 29621 strings out of 476079
- 587476 string characters out of 5792643
- 1948975 words of memory out of 5000000
- 50909 multiletter control sequences out of 15000+600000
- 640486 words of font info for 129 fonts, out of 8000000 for 9000
+ 29515 strings out of 476079
+ 583649 string characters out of 5792643
+ 1947975 words of memory out of 5000000
+ 50829 multiletter control sequences out of 15000+600000
+ 632042 words of font info for 118 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  101i,22n,107p,623b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2627,21 +2367,20 @@ appen/ec/ecbx0900.600pk> </home/raymundo/.texlive2023/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
-/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
->
-Output written on Feathertheme.pdf (55 pages, 15727792 bytes).
+mmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
+o8a.pfb>
+Output written on Feathertheme.pdf (46 pages, 14766499 bytes).
 PDF statistics:
- 2378 PDF objects out of 2487 (max. 8388607)
- 1602 compressed objects within 17 object streams
- 137 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1934 PDF objects out of 2073 (max. 8388607)
+ 1268 compressed objects within 13 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
 
