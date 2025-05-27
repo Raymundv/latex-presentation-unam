@@ -1,0 +1,151 @@
+@article{kepler,
+  title={De Cometis Libelli III. Astronomicus ... Physicus ... Astrologicus},
+  author={Kepler, Johannes},
+  year={1619},
+  journal={De cometis libelli tres I. astronomicus}
+}
+
+@article{maxwell1865viii,
+  title={VIII. A dynamical theory of the electromagnetic field},
+  author={Maxwell, James Clerk},
+  journal={Philosophical transactions of the Royal Society of London},
+  number={155},
+  pages={459--512},
+  year={1865},
+  publisher={The Royal Society London}
+}
+@article{lebedev1883experimental,
+  title={Experimental examination of light pressure},
+  author={Lebedev, P},
+  journal={Nuovo Cimento},
+  volume={15},
+  number={195},
+  pages={195},
+  year={1883}
+}
+
+@article{nichols1901preliminary,
+  title={A preliminary communication on the pressure of heat and light radiation},
+  author={Nichols, Ernest Fox and Hull, Gordon Ferrie},
+  journal={Physical Review (Series I)},
+  volume={13},
+  number={5},
+  pages={307},
+  year={1901},
+  publisher={APS}
+}
+
+@article{maiman1960stimulated,
+  title={Stimulated optical radiation in ruby},
+  author={Maiman, Theodore H},
+  journal={nature},
+  volume={187},
+  number={4736},
+  pages={493--494},
+  year={1960},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{ashkin1970acceleration,
+  title={Acceleration and trapping of particles by radiation pressure},
+  author={Ashkin, Arthur},
+  journal={Physical Review Letters},
+  volume={24},
+  number={4},
+  pages={156},
+  year={1970},
+  publisher={APS}
+}
+
+@article{ashkin1986observation,
+  title={Observation of a single-beam gradient force optical trap for dielectric particles},
+  author={Ashkin, Arthur and Dziedzic, James M and Bjorkholm, John E and Chu, Steven},
+  journal={Optics Letters},
+  volume={11},
+  number={5},
+  pages={288--290},
+  year={1986},
+  publisher={Optical Society of America}
+}
+
+@article{yan2019two,
+  title={Two-million-year-old snapshots of atmospheric gases from Antarctic ice},
+  author={Yan, Yuzhen and Bender, Michael L and Brook, Edward J and Clifford, Heather M and Kemeny, Preston C and Kurbatov, Andrei V and Mackay, Sean and Mayewski, Paul A and Ng, Jessica and Severinghaus, Jeffrey P and others},
+  journal={Nature},
+  volume={574},
+  number={7780},
+  pages={663--666},
+  year={2019},
+  publisher={Nature Publishing Group UK London}
+}
+
+@book{round1990diatoms,
+  title={Diatoms: biology and morphology of the genera},
+  author={Round, Frank Eric and Crawford, Richard M and Mann, David G},
+  year={1990},
+  publisher={Cambridge university press}
+}
+
+@article{aguirre2018diatomDNAViolet,
+  title={Diatom frustules protect DNA from ultraviolet light},
+  author={Aguirre, Luis Ever and Ouyang, Liangqi and Elfwing, Anders and Hedblom, Mikael and Wulff, Angela and Ingan{\"a}s, Olle},
+  journal={Scientific Reports},
+  volume={8},
+  number={1},
+  pages={5138},
+  year={2018},
+  publisher={Nature Publishing Group UK London}
+}
+
+
+@misc{Pedreira_2012, title={Navicula pupula - 588}, note={\url{https://www.biodiversidadvirtual.org/micro/Navicula-pupula-img588.html} [(Accessed: June 18, 2023)]}, journal={Biodiversidad Virtual Mundo Microscópico}, author={Pedreira, Antonio}}
+
+
+@misc{DiatomsofNorthAmericadariana, author= {Diatoms of North America website.}, title= {Pinnularia
+Ehrenb. 1843}, note={\url{https://diatoms.org/genera/pinnularia} [Accessed: (May 12, 2023)]}} 
+@misc{Olympus, title= {Olympus IX70 Fluorescence Microscope Cutaway Diagram website}}
+
+
+@misc{Fester_Davidson_Abramowitz, title={Olympus IX70 fluorescence microscope cutaway diagram}, note={\url{https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/fluorescence/ix70fluorescence/} [Accesed: (June 25, 2023)]}, publisher={Olympus America, Inc.}, author={Fester, William K and Davidson, Michael W and Abramowitz, Mortimer}} 
+
+
+@book{jones2015optical,
+  title={Optical tweezers: Principles and applications},
+  author={Jones, Philip H and Marag{\`o}, Onofrio M and Volpe, Giovanni},
+  year={2015},
+  publisher={Cambridge University Press}
+}
+
+@article{callegari2015computational,
+  title={Computational toolbox for optical tweezers in geometrical optics},
+  author={Callegari, Agnese and Mijalkov, Mite and G{\"o}k{\"o}z, A Burak and Volpe, Giovanni},
+  journal={Journal of the Optical Society of America B},
+  volume={32},
+  number={5},
+  pages={B11--B19},
+  year={2015},
+  publisher={OSA}
+}
+
+
+@article{Wanucha_2012, title={The hidden life of ocean microbes}, note={\url{http://oceans.mit.edu/news/featured-stories/hidden-life-ocean-microbes.html} [Accessed: (October 04, 2023)]}, journal={Oceans at MIT}, publisher={MIT}, author={Wanucha, Genevieve}, year={2012}, month={Nov}}
+
+
+
+@article{pau1990application,
+  title={Application of Stokes' law to ions in aqueous solution},
+  author={Pau, Paul Chi Fu and Berg, JO and McMillan, WG},
+  journal={Journal of Physical Chemistry},
+  volume={94},
+  number={6},
+  pages={2671--2679},
+  year={1990},
+  publisher={ACS Publications}
+}
+
+@article{reisfeld2021fluids,
+  title={Fluids and Fluid Flow},
+  author={Reisfeld, Brad},
+  journal={URL https://www. engr. colostate. edu/CBE101/topics/fluids\_and\_fluid\_flow. html},
+  year={2021}
+}
