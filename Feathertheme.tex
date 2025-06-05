@@ -68,7 +68,14 @@
 }
 
 \makeatletter
-\def\blfootnote{\gdef\@thefnmark{}\@footnotetext}
+%\def\blfootnote{\gdef\@thefnmark{}\@footnotetext}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 \makeatother
 
 %-------------------------------------------------------
@@ -124,7 +131,7 @@
 \section{Introducción}
 %-------------------------------------------------------
 % ----------------- Frame 1 -----------------
-\begin{frame}<1-3>
+\begin{frame}<1-4>
   \frametitle{Introducción}
   \framesubtitle{La presión de radiación}
 
@@ -140,16 +147,44 @@
     \item Siglo XVI: Idea de la presión de radiación para explicar la orientación de los cometas (Kepler, 1619).
     \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación (Maxwell, 1865).
     \item 1880 - 1900s: Primeras mediciones experimentales de la presión de radiación (Lebedev, 1883; Nichols et al., 1901). 
+  %  \item 1960: Invención del láser (Maiman, 1960).
+   % \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas (Ashkin, 1970).
+   % \item 1986: Invención de las pinzas ópticas y ejecuci\'on lum\'inica de bacterias (Ashkin, 1986).
+   % \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
+  \end{itemize}
+  
+  %%Aqui
+  
+
+\blfootnote{\text{Kepler, J. (1619). De Cometis Libelli III. Astronomicus ... Physicus ... Astrologicus. De cometis libelli tres I. astronomicus.} \\ \vspace{0.5em} \hspace{1.55em} Maxwell, J. C. (1865). VIII. A dynamical theory of the electromagnetic field. Philosophical Transactions of the Royal Society of London, 155, 459–512. \\ \vspace{0.5em} \hspace{1.55em} Nichols, E. F., et al. (1901). A preliminary communication on the pressure of heat and light radiation. \textit{Physical Review (Series I)}, \textit{13}(5), 307.}
+
+
+
+}
+  
+\only<3>{
+
+\framesubtitle{Resumen cronológico.}
+  \begin{itemize}
+    \item Siglo XVI: Idea de la presión de radiación para explicar la orientación de los cometas (Kepler, 1619).
+    \item 1860s: Teoría electromagnética de Maxwell, primer sustento teórico para la presión de radiación (Maxwell, 1865).
+    \item 1880 - 1900s: Primeras mediciones experimentales de la presión de radiación (Lebedev, 1883; Nichols et al., 1901). 
     \item 1960: Invención del láser (Maiman, 1960).
     \item 1970s: Primeros experimentos de Ashkin con partículas sintéticas (Ashkin, 1970).
     \item 1986: Invención de las pinzas ópticas y ejecuci\'on lum\'inica de bacterias (Ashkin, 1986).
     \item 2018: Premio Nobel de Física para Arthur Ashkin por su trabajo con las pinzas ópticas.
   \end{itemize}
+
+
+
+\blfootnote{Maiman, T. H. (1960). Stimulated optical radiation in ruby. *Nature*, *187*(4736), 493–494. \\ \vspace{0.5em} \hspace{1.55em} Ashkin, A. (1970). Acceleration and trapping of particles by radiation pressure. *Physical Review Letters*, *24*(4), 156.\\ \vspace{0.5em} \hspace{1.55em} Ashkin, A., et al. (1986). Observation of a single-beam gradient force optical trap for dielectric particles. *Optics Letters*, *11*(5), 288–290.}
+
+
+
+
+}  
   
-  
-  }
-  
-\only<3>{
+\only<4>{
 
   
   \begin{itemize}
@@ -166,8 +201,11 @@
 
 
 
-  }
-\end{frame}
+%Nichols, E. F., et al. (1901). A preliminary communication on the pressure of heat and light radiation. %%\textit{Physical Review (Series I)}, \textit{13}(5), 307.%
+  }\end{frame}
+  
+  
+  
 \begin{frame}\frametitle{Introducción}
 \framesubtitle{Pinzas ópticas y diatomeas: precedentes.}
 \begin{itemize}
@@ -176,14 +214,14 @@
 	%\item 
 \end{itemize}
 
-
+\blfootnote{Sonek, G. J., et al. (1994). Spectral fluorescence and scattering of cyanobacteria and diatoms held by optical tweezers. In Ocean Optics XII (Vol. 2258, pp. 568--574). SPIE. \\ \vspace{0.5em} \hspace{1.55em} Olof, S. N. et al. (2012). Measuring nanoscale forces with living probes. \textit{Nano letters}, \textit{12}(11), 6018--6023.}
 \end{frame}
 
 
 
   %----------------------------------------
 \section{Marco teórico}
-\begin{frame}<1-7>
+\begin{frame}<1-8>
 \frametitle{Marco teórico}
 \framesubtitle{Diatomeas}
 \only<1>{Las diatomeas son organismos unicelulares que se encuentran en la mayoría de los cuerpos de agua en la tierra.
@@ -194,25 +232,25 @@
    \begin{figure}
       \centering
       \begin{subfigure}[b]{0.22\textwidth}
-        \includegraphics[width=\textwidth]{lago.jpeg}
+        \includegraphics[width=\textwidth, height = 2.cm]{lago.jpeg}
         \caption*{\textbf{(a)}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub1}
       \end{subfigure}\hspace{0.22cm}
       \begin{subfigure}[b]{0.22\textwidth}
-        \includegraphics[width=\textwidth]{mar.jpeg}
+        \includegraphics[width=\textwidth, height = 2.cm]{mar.jpeg}
         \caption*{\textbf{(b)}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub2}
       \end{subfigure}
 
-      \vspace{\baselineskip}
+      \vspace{0.2cm}
 
       \begin{subfigure}[b]{0.22\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{lodo.jpeg}
+        \includegraphics[width=\textwidth, height=2.cm]{lodo.jpeg}
         \caption*{\textbf{(c)}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub3}
-      \end{subfigure}\hspace{0.5cm}
+      \end{subfigure}\hspace{0.22cm}
       \begin{subfigure}[b]{0.22\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{ice.png}
+        \includegraphics[width=\textwidth, height=2.cm]{ice.png}
         \caption*{\textbf{(d)}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub4}
       \end{subfigure}
@@ -221,7 +259,7 @@
 
       \label{fig:cuatro_subfiguras}
     \end{figure}
-\blfootnote{Fuente de la figura \textbf{(d)}: (Yan et al., 2019)}  
+\blfootnote{Fuente de la figura \textbf{(d)}: Yan, Y., et al. (2019). Two-million-year-old snapshots of atmospheric gases from Antarctic ice. *Nature*, *574*(7780), 663–666.}  
   }
 
 \only<3>{
@@ -242,7 +280,7 @@
 
 }
 
-
+\blfootnote{Round, F. E., et al. (1990). *Diatoms: Biology and morphology of the genera*. Cambridge University Press.}
 
 
 }
@@ -252,7 +290,7 @@
 Las frústulas son un caparazón de sílice que aparece en la etapa de crecimiento del alga y establece una clasificación binaria dada por la simetría de las frústulas (Aguirre, et al., 2018).
    
 
-
+\blfootnote{Aguirre, L. E., et al. (2018). Diatom frustules protect DNA from ultraviolet light. *Scientific Reports*, *8*(1), 5138.}
 }
 
 \only<5>{
@@ -260,12 +298,12 @@ Las frústulas son un caparazón de sílice que aparece en la etapa de crecimien
    \begin{figure}
       \centering
       \begin{subfigure}[b]{0.3\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{pen1.png}
+        \includegraphics[width=\textwidth, height=2.cm]{pen1.png}
         \caption*{\textbf{(a) \textit{Pinnularia dariana} }} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub1}
       \end{subfigure}\hspace{0.5cm}
       \begin{subfigure}[b]{0.3\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{pen2.png}
+        \includegraphics[width=\textwidth, height=2.cm]{pen2.png}
         \caption*{\textbf{(b) \textit{Fragilaria synegrotesca}}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub2}
       \end{subfigure}
@@ -273,12 +311,12 @@ Las frústulas son un caparazón de sílice que aparece en la etapa de crecimien
       \vspace{\baselineskip}
 
       \begin{subfigure}[b]{0.3\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{cen1.jpeg}
+        \includegraphics[width=\textwidth, height=2.cm]{cen1.jpeg}
         \caption*{\textbf{(c) \textit{Cyclotella meneghiniana}}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub3}
       \end{subfigure}\hspace{0.5cm}
       \begin{subfigure}[b]{0.3\textwidth}
-        \includegraphics[width=\textwidth, height=2.2cm]{cen2.jpeg}
+        \includegraphics[width=\textwidth, height=2.cm]{cen2.jpeg}
         \caption*{\textbf{(d) \textit{Stephanodiscus reimeri}}} % Pie de foto vacío, pero con la etiqueta
         \label{fig:sub4}
       \end{subfigure}
@@ -286,12 +324,55 @@ Las frústulas son un caparazón de sílice que aparece en la etapa de crecimien
   \caption{\textbf{Figura 2:} Ejemplos de diatomeas con simetrías bilateral y central. \textbf{(a-b)} Especies con simetría bilateral (diatomea pennada). \textbf{(c-d)} Especies con simetría central (diatomea céntrica).}
       \label{fig:cuatro2_subfiguras}
     \end{figure}
-\blfootnote{Fuentes de las figuras:
-    \textbf{(a):} (Pedreira, 2012), \textbf{(b-d):} (Diatoms of North America, 2023)}
+\blfootnote{Fuentes de las figuras \textbf{(a):} Pedreira, A. (2012). *Navicula pupula - 588*. Biodiversidad Virtual Mundo Microscópico. Consultado Junio 18, 2024, de \url{https://www.biodiversidadvirtual.org/micro/Navicula-pupula-img588.html}}
+
+
+
 }
 
 
+
 \only<6>{
+
+   \begin{figure}
+      \centering
+      \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth, height=2.cm]{pen1.png}
+        \caption*{\textbf{(a) \textit{Pinnularia dariana} }} % Pie de foto vacío, pero con la etiqueta
+        \label{fig:sub1}
+      \end{subfigure}\hspace{0.5cm}
+      \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth, height=2.cm]{pen2.png}
+        \caption*{\textbf{(b) \textit{Fragilaria synegrotesca}}} % Pie de foto vacío, pero con la etiqueta
+        \label{fig:sub2}
+      \end{subfigure}
+
+      \vspace{\baselineskip}
+
+      \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth, height=2.cm]{cen1.jpeg}
+        \caption*{\textbf{(c) \textit{Cyclotella meneghiniana}}} % Pie de foto vacío, pero con la etiqueta
+        \label{fig:sub3}
+      \end{subfigure}\hspace{0.5cm}
+      \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth, height=2.cm]{cen2.jpeg}
+        \caption*{\textbf{(d) \textit{Stephanodiscus reimeri}}} % Pie de foto vacío, pero con la etiqueta
+        \label{fig:sub4}
+      \end{subfigure}
+      \captionsetup{labelformat=empty}
+  \caption{\textbf{Figura 2:} Ejemplos de diatomeas con simetrías bilateral y central. \textbf{(a-b)} Especies con simetría bilateral (diatomea pennada). \textbf{(c-d)} Especies con simetría central (diatomea céntrica).}
+      \label{fig:cuatro2_subfiguras}
+    \end{figure}
+\blfootnote{Fuentes de las figuras: \textbf{(b-d):} Diatoms of North America. (n.d.). *Pinnularia Ehrenb. 1843*. Consultado Mayo 12, 2024, de \url{https://diatoms.org/genera/pinnularia}}
+
+
+
+}
+
+
+
+
+\only<7>{
 %Las frustulas tienen patrones intrensicos de poros y rendijas en toda su estructura. 
 
 \begin{figure}
@@ -327,13 +408,13 @@ Imágenes de microscopio electrónico de barrido (MEB) de \textbf{(a,c)} - \emph
 
  
 \end{figure}
-\blfootnote{Fuente de las figuras \textbf{(a-d)}: (Aguirre et al., 2018)}
+\blfootnote{Fuente de las figuras \textbf{(a-d)}: Aguirre, L. E., et al. (2018). Diatom frustules protect DNA from ultraviolet light. *Scientific Reports*, *8*(1), 5138.}
 
 }
 
 
 
-\only<7>{\begin{block}{Propiedades de las fr\'ustulas:}
+\only<8>{\begin{block}{Propiedades de las fr\'ustulas:}
 \begin{itemize}
 \item Las frústulas tienen patrones intrínsecos de poros y rendijas en toda su estructura.
 \item Frústulo sintetizado a partir de ácido monosilícico.
@@ -363,7 +444,8 @@ Imágenes de microscopio electrónico de barrido (MEB) de \textbf{(a,c)} - \emph
     \caption{\textbf{Figura 4:} Componentes de un microscopio invertido (microscopio Olympus IX70).}
     \label{Microscope inverted}
 \end{figure}
-\blfootnote{\scriptsize Fuente de la figura: (Fester et al., 2023)}
+\blfootnote{\scriptsize Fuente de la figura: Olympus. (n.d.). *Olympus IX70 Fluorescence Microscope Cutaway Diagram*. Consultado Junio 25, 2024, de \url{https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/fluorescence/ix70fluorescence/}
+}
 
 
 \end{frame}
@@ -420,6 +502,9 @@ donde,
     \item $\lambda_0$ representa la longitud de onda de la fuente de luz en el vacío, y
     \item $n_i$ es el índice de refracción del medio circundante.
 \end{itemize}
+
+
+\blfootnote{Jones, P. H., et al. (2015). *Optical tweezers: Principles and applications*. Cambridge University Press.}
 }
 \only<4>{
 \begin{itemize}
@@ -507,10 +592,11 @@ La fuerza total debido al la radiacion electromagnetica, considerando \textbf{"t
     \centering
     \includegraphics[scale=0.35]{Screenshot 2025-03-05 004832.png}
     \captionsetup{labelformat=empty}
-    \caption{\textbf{Figura 8:} Fuerzas ópticas $F_g$ y $F_s$ (fuerza de gradiente y fuerza de dispersión respectivamente) sobre una partícula esférica de $SiO_2$ de $6.59 \mu m$ producidas por un haz láser enfocado con una potencia establecida en $120 mW$. Las fuerzas ópticas se calculan en función de la posición a lo largo del eje transversal x del centro de masa de la partícula atrapada utilizando el software OTGO (Callegari et al. (2015). El foco del haz láser en el software se considera obtenido sobrellenando un objetivo de microscopio con apertura numérica 1.0 y aumento de 60X.}
+    \caption{\textbf{Figura 8:} Fuerzas ópticas $F_g$ y $F_s$ (fuerza de gradiente y fuerza de dispersión respectivamente) sobre una partícula esférica de $SiO_2$ de $6.59 \mu m$ producidas por un haz láser enfocado con una potencia establecida en $120 mW$. Las fuerzas ópticas se calculan en función de la posición a lo largo del eje transversal x del centro de masa de la partícula atrapada utilizando el software OTGO (Callegari et al., (2015)). El foco del haz láser en el software se considera obtenido sobrellenando un objetivo de microscopio con apertura numérica 1.0 y aumento de 60X.}
     \label{OpticalforcessetupKaren}
 \end{figure} 
 
+\blfootnote{Callegari, A., et al. (2015). Computational toolbox for optical tweezers in geometrical optics. *Journal of the Optical Society of America B*, *32*(5), B11–B19.}
 }
 
 
@@ -529,7 +615,7 @@ Un dispositivo microfluídico es un sistema diseñado para manipular y manejar p
      \caption{\textbf{Figura 9:} Un dispositivo microfluídico colocado en la platina de un microscopio invertido. Esta configuración permite el seguimiento visual de los fenómenos que ocurren en los microcanales.}
      \label{microfluidic_device} .
  \end{figure}
-\blfootnote{Fuente de la figura: (Wanucha ,2012)}}
+\blfootnote{Fuente de la figura: Wanucha, G. (2012). The hidden life of ocean microbes. *Oceans at MIT*. MIT. Consultado October 4, 2024, de \url{http://oceans.mit.edu/news/featured-stories/hidden-life-ocean-microbes.html}}}
  \only<2>{\framesubtitle{Microfluidicos: Un diseño simple.}
  
  \begin{figure}
@@ -569,7 +655,7 @@ Para una partícula esférica de radio \( r \) que se mueve con una velocidad \(
     \mathbf{F}_d = 6 \pi \mu r \mathbf{v}.
 \end{equation*} 
  
- }
+\blfootnote{Pau, P. C. F., et al. (1990). Application of Stokes' law to ions in aqueous solution. *Journal of Physical Chemistry*, *94*(6), 2671–2679.} }
  
 \end{frame}
 
@@ -1059,7 +1145,7 @@ Sobre la fuerza de Stokes y la diferencia entre la fuerza experimental y la te\'
     \label{fig:etiqueta}
 \end{figure}
 
-\blfootnote{Fuente de la figura: (Reisfeld, 2023)}
+\blfootnote{Reisfeld, B. (2021). *Fluids and Fluid Flow*. Consultado de \url{https://www.engr.colostate.edu/CBE101/topics/fluids_and_fluid_flow.html}}
 }
 
 \only<4>{
@@ -1082,120 +1168,6 @@ Sobre la fuerza de Stokes y la diferencia entre la fuerza experimental y la te\'
 
 \end{frame}
 
-\appendix
-\setcounter{framenumber}{0}
-\begin{frame}
-\frametitle{Referencias} % or "References", depending on your language
-
-\small % or \footnotesize for more compact text
-
-% Increase spacing between items
-\setlength{\parskip}{6pt} % adds space between paragraphs
-\setlength{\itemsep}{6pt} % not needed unless you're using itemize
-
-\begin{flushleft}
-Kepler, J. (1619). \textit{De Cometis Libelli III. Astronomicus ... Physicus ... Astrologicus}. De cometis libelli tres I. astronomicus.
-
-Maxwell, J. C. (1865). VIII. A dynamical theory of the electromagnetic field. \textit{Philosophical Transactions of the Royal Society of London}, \textit{155}, 459–512.
-
-Nichols, E. F., et al. (1901). A preliminary communication on the pressure of heat and light radiation. \textit{Physical Review (Series I)}, \textit{13}(5), 307.
-
-% (...continue with rest of references)
-Maiman, T. H. (1960). Stimulated optical radiation in ruby. *Nature*, *187*(4736), 493–494.
-
-% Full authors: Theodore H. Maiman
-
-Ashkin, A. (1970). Acceleration and trapping of particles by radiation pressure. *Physical Review Letters*, *24*(4), 156.
-
-% Full authors: Arthur Ashkin
-
-Ashkin, A., et al. (1986). Observation of a single-beam gradient force optical trap for dielectric particles. *Optics Letters*, *11*(5), 288–290.
-
-% Full authors: Arthur Ashkin, James M. Dziedzic, John E. Bjorkholm, Steven Chu
-
-
-
-
-\end{flushleft}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Referencias}
-\small
-\setlength{\parskip}{6pt}
-
-\begin{flushleft}
-Yan, Y., et al. (2019). Two-million-year-old snapshots of atmospheric gases from Antarctic ice. *Nature*, *574*(7780), 663–666.
-
-% Full authors: Yuzhen Yan, Michael L. Bender, Edward J. Brook, Heather M. Clifford, Preston C. Kemeny, Andrei V. Kurbatov, Sean Mackay, Paul A. Mayewski, Jessica Ng, Jeffrey P. Severinghaus, others
-
-Aguirre, L. E., et al. (2018). Diatom frustules protect DNA from ultraviolet light. *Scientific Reports*, *8*(1), 5138.
-
-% Full authors: Luis Ever Aguirre, Liangqi Ouyang, Anders Elfwing, Mikael Hedblom, Angela Wulff, Olle Inganäs
-
-Callegari, A., et al. (2015). Computational toolbox for optical tweezers in geometrical optics. *Journal of the Optical Society of America B*, *32*(5), B11–B19.
-
-% Full authors: Agnese Callegari, Mite Mijalkov, A. Burak Gököz, Giovanni Volpe
-
-Pau, P. C. F., et al. (1990). Application of Stokes' law to ions in aqueous solution. *Journal of Physical Chemistry*, *94*(6), 2671–2679.
-
-% Full authors: Paul Chi Fu Pau, J. O. Berg, W. G. McMillan
-
-Round, F. E., et al. (1990). *Diatoms: Biology and morphology of the genera*. Cambridge University Press.
-
-% Full authors: Frank Eric Round, Richard M. Crawford, David G. Mann
-
-Jones, P. H., et al. (2015). *Optical tweezers: Principles and applications*. Cambridge University Press.
-\end{flushleft}
-\end{frame}
-
-% Slide 3
-\begin{frame}
-\frametitle{Referencias}
-\small
-
-
-
-\setlength{\parskip}{6pt}
-
-\begin{flushleft}
-
-Pedreira, A. (2012). *Navicula pupula - 588*. Biodiversidad Virtual Mundo Microscópico. Retrieved June 18, 2023, from \url{https://www.biodiversidadvirtual.org/micro/Navicula-pupula-img588.html}
-
-% Full authors: Antonio Pedreira
-
-Diatoms of North America. (n.d.). *Pinnularia Ehrenb. 1843*. Retrieved May 12, 2023, from \url{https://diatoms.org/genera/pinnularia}
-
-% Full authors: Diatoms of North America website
-
-Olympus. (n.d.). *Olympus IX70 Fluorescence Microscope Cutaway Diagram*. Retrieved June 25, 2023, from \url{https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/fluorescence/ix70fluorescence/}
-
-% Full authors: Olympus America, Inc., William K. Fester, Michael W. Davidson, Mortimer Abramowitz
-
-Wanucha, G. (2012, November). The hidden life of ocean microbes. *Oceans at MIT*. MIT. Retrieved October 4, 2023, from \url{http://oceans.mit.edu/news/featured-stories/hidden-life-ocean-microbes.html}
-
-% Full authors: Genevieve Wanucha
-
-Reisfeld, B. (2021). *Fluids and Fluid Flow*. Retrieved from \url{https://www.engr.colostate.edu/CBE101/topics/fluids_and_fluid_flow.html}
-
-% Full authors: Philip H. Jones, Onofrio M. Maragò, Giovanni Volpe
-
-
-\end{flushleft}
-\end{frame}
-
-\begin{frame}
-\frametitle{Referencias}
-\small
-\setlength{\parskip}{6pt}
-\begin{flushleft}
-Sonek, G. J., et al. (1994). Spectral fluorescence and scattering of cyanobacteria and diatoms held by optical tweezers. In Ocean Optics XII (Vol. 2258, pp. 568--574). SPIE.
-
-
-Olof, S. N. et al. (2012). Measuring nanoscale forces with living probes. \textit{Nano letters}, \textit{12}(11), 6018--6023.
-\end{flushleft}
-\end{frame}
 
 
 
